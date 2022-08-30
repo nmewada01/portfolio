@@ -18,7 +18,7 @@ const Intro = () => {
               <div className="i-title-item">Html/CSS</div>
             </div>
           </div>
-          <div style={{ display: "flex", gap: "15px" }}>
+          <div style={{ display: "flex", gap: "15px",marginTop:"1rem" }}>
             <div>
               <a href="https://github.com/nmewada01" target="blank">
                 <BsGithub size="2rem" style={{ color: "blue" }} />
