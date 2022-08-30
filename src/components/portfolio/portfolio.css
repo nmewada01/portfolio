@@ -3,7 +3,7 @@
   height: 50vh;
   margin: 20px 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  border:2px solid beige;
+  border: 2px solid beige;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
 }
@@ -37,5 +37,17 @@
   .p {
     width: 80%;
     height: 30vh;
+  }
+  .p-circle {
+    line-height: 1rem;
+    margin-top: 1rem;
+  }
+  .p-img {
+    width: 50%;
+    transition: all 10s ease;
+  }
+  .p-tech {
+    font-weight: bold;
+    margin-top: 1rem;
   }
 }

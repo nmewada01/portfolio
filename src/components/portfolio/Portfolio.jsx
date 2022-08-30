@@ -8,13 +8,12 @@ const PortFolio = ({ img, link, ProjectName, description, techstack }) => {
           <div className="p-browser">
             <div className="p-circle">
               <h2 style={{ color: "#59b256", textDecoration: "underline" }}>
-                {ProjectName}{" "}
+                {ProjectName}
               </h2>
             </div>
             <div className="p-circle">{description}</div>
             <div className="p-circle">
-              {" "}
-              <p style={{ fontWeight: "bold" }}>Tech Stack: {techstack}</p>
+              <p className="p-tech">Tech Stack: {techstack}</p>
             </div>
           </div>
           <a href={link} target="_blank" rel="noreferrer">

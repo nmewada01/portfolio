@@ -64,8 +64,39 @@
   }
   @media only screen and (max-width: 1024px) {
     .root {
-      grid-template-columns: 20% 80%;
+      grid-template-columns: 50% 50%;
       font-size: 18px;
+    }
+    .navsCont {
+      justify-content: space-around;
+    }
+    .nav {
+      height: 47px;
+      width: 100%;
+    }
+    .navlogo {
+      height: 47px;
+      width: 50px;
+      margin-left: 5%;
+    }
+    .nav:hover {
+      border-bottom: none;
+    }
+    .navlogo:hover {
+      border-bottom: none;
+    }
+    .active > .nav {
+      border-bottom: none;
+    }
+    .active > .navlogo {
+      border-bottom: none;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .root {
+      grid-template-columns: 80% 80%;
+      font-size: 14px;
     }
     .navsCont {
       justify-content: space-around;
