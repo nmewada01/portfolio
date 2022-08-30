@@ -7,7 +7,7 @@
 Naresh Rajput. I am a Full Stack Developer with a passion for development and excited to learn new things. I am very flexible and adaptive to learning new things and My enthusiasm for health care allows me to stay motivated at work and find importance in what I'm doing.
 </p>
 
-<h3>My Portfolio <a href="https://naresh-rajput-portfolio.vercel.app/" alt="portfolio">click here</h3>
+<h3>My Portfolio <a href="https://naresh-rajput-portfolio.vercel.app/" alt="portfolio">click here</a></h3>
 
 <h2>Projects</h2>
 
@@ -16,4 +16,4 @@ Naresh Rajput. I am a Full Stack Developer with a passion for development and ex
 <h3>Bath And Body Works : </h3> <p> https://harshvyas2704.github.io/bath-and-body-works-2/ </p> <br/>
 <h3>BangGoods : </h3> <p>https://harshvyas2704.github.io/unit2-project-banggood/ </p> <br/>
 <hr/>
-<h2>Connect with me on Linkedin :  <a href="https://www.linkedin.com/in/naresh-rajput/" alt="linkedin>touch</a>  </h2> 
+<h2>Connect with me on Linkedin :  <a href="https://www.linkedin.com/in/naresh-rajput/" alt="linkedin">touch</a>  </h2> 
