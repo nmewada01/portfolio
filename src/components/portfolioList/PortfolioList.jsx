@@ -11,7 +11,7 @@ const PortFolioList = () => {
       <div className="pl-list">
         {products.map((item) => (
           <>
-            <PortFolio key={item.id} img={item.img} link={item.link} ProjectName={item.ProjectName} description={item.des} techstack={item.Tech}/>
+            <PortFolio key={item.id} img={item.img} link2={item.link2} link1={item.link1} ProjectName={item.ProjectName} description={item.des} techstack={item.Tech}/>
           </>
         ))}
       </div>
