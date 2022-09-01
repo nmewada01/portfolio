@@ -41,7 +41,7 @@ const Contact = () => {
         <div className="c-bg"></div>
         <div className="c-wrapper">
           <div className="c-left">
-            <h1 className="c-title">Contacts</h1>
+            <h1 className="c-title" style={{ color:"#59b256" }} >Contacts</h1>
             <div className="c-info">
               <h2>Mobile No.</h2>
               <div className="c-info-item">

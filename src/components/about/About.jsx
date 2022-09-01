@@ -15,7 +15,7 @@ const About = () => {
         </div>
       </div>
       <div className="a-right">
-        <h1 className="a-title">About Me</h1>
+        <h1 className="a-title"> <span style={{ color:"#59b256",fontWeight:"bold" }}>About</span> Me</h1>
         <p className="a-sub">
           Bsc Computer Science graduate with first division. have a knowledge of
           Html, CSS, javascript, React, Redux. Honest With My work and vey
@@ -34,7 +34,7 @@ const About = () => {
           <img src={javascript} alt="" className="a-award-img" />
           <img src={React} alt="" className="a-award-img" />
           <div className="a-award-texts">
-            <h4 className="a-award-title">Languages</h4>
+            <h4 className="a-award-title" style={{ color:"#59b256" }} >Languages</h4>
             <p className="a-award-desc">
               I have learned html,css,javascript,React and Currently Working on
               Mern Stack Development.

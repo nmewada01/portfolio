@@ -5,7 +5,7 @@ const PortFolioList = () => {
   return (
     <div className="pl" id="portfoliolist">
       <div className="pl-texts">
-        <h1 className="pl-title">My Projects</h1>
+        <h1 className="pl-title">My <span style={{ color:"#59b256" }}>Projects</span></h1>
         <p className="pl-desc"></p>
       </div>
       <div className="pl-list">
