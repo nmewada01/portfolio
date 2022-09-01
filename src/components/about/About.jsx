@@ -17,14 +17,17 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          I am very flexible and adaptive to learning new things and My
-          enthusiasm for health care allows me to stay motivated at work and
-          find importance in what I'm doing.
+          Bsc Computer Science graduate with first division. have a knowledge of
+          Html, CSS, javascript, React, Redux. Honest With My work and vey
+          passionate about to learn new things. Learning New things is for me a
+          motivation to expand my knowledge. And My enthusiasm for health care
+          allows me to stay motivated at work and find importance in what I'm
+          doing. Ability to learn things quickly and capable of working in a
+          fast-paced and team-driven environment.
         </p>
-        <p className="a-desc">
-          I have always been a creative person who likes to experiment with new
-          things. I love to explore and learn new things.
-        </p>
+        {/* <p className="a-desc">
+       
+        </p> */}
         <div className="a-award">
           <img src={html} alt="" className="a-award-img" />
           <img src={css} alt="" className="a-award-img" />
@@ -33,7 +36,8 @@ const About = () => {
           <div className="a-award-texts">
             <h4 className="a-award-title">Languages</h4>
             <p className="a-award-desc">
-             I have learned html,css,javascript,React and Currently Working on Mern Stack Development.
+              I have learned html,css,javascript,React and Currently Working on
+              Mern Stack Development.
             </p>
           </div>
         </div>

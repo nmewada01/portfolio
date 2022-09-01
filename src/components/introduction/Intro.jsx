@@ -18,7 +18,7 @@ const Intro = () => {
               <div className="i-title-item">Html/CSS</div>
             </div>
           </div>
-          <div style={{ display: "flex", gap: "15px",marginBottom:"1rem" }}>
+          <div style={{ display: "flex", gap: "15px", marginBottom: "1rem" }}>
             <div>
               <a href="https://github.com/nmewada01" target="blank">
                 <BsGithub size="2rem" style={{ color: "blue" }} />
@@ -51,14 +51,9 @@ const Intro = () => {
 
           {/* ------------------------------------------------------------------------------------------------------ */}
 
-          <p className="i-desc">
-            I studied in Masai School. I have work on diffrent languages like
-            html,css,javascript,react. I build a Some Best Project with My Team.
-            I have Also knowledge of git, github,vercel,netlify,heroku etc.
-            <br /> Honest With My work and vey passionate about to learn new
-            things. Learning New things is for me a motivation to expand my
-            knowledge.
-          </p>
+          {/* <p className="i-desc">
+           
+          </p> */}
         </div>
       </div>
       <div className="i-right">
