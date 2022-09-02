@@ -6,6 +6,7 @@
   border: 2px solid beige;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
+  background-image:linear-gradient(#e31740,#dd294d,#f84568);
 }
 
 .p-browser {
@@ -20,8 +21,8 @@
   height: 35px;
   border-radius: 40%;
   margin: 2px;
-  background: rgb(2, 0, 36);
-  color: white;
+  background-color: #edf2f8;
+  color: green;
 }
 
 .p-img {
@@ -60,13 +61,14 @@
   font-size: 20px;
   font-family: sans-serif;
   text-decoration: none;
-  color: #333;
-  border: 2px solid #333;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
   letter-spacing: 2px;
   text-align: center;
   position: relative;
   transition: all 0.35s;
   margin: auto;
+
 }
 
 .deploy_link span {
