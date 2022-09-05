@@ -6,7 +6,7 @@ export const products = [
     link2: "https://harshvyas2704.github.io/unit2-project-banggood/",
     ProjectName: "BangGood clone",
     des: "This Website allows people to buy and sell physical goods, and services",
-    Tech: "Html , CSS , Javascript",
+    Tech: "Html, CSS, Javascript",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const products = [
     link2: "https://harshvyas2704.github.io/bath-and-body-works-2/",
     ProjectName: "Bath And Body Works clone",
     des: "It is an American retail store chain that sells soaps, lotions fragrances, candles etc.",
-    Tech: "Html , CSS , Javascript",
+    Tech: "Html, CSS, Javascript",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const products = [
     link2: "https://desktime-project-nmewada01.vercel.app/",
     ProjectName: "DeskTime Clone",
     des: "Desktime is a desktop and mobile time tracking app for companies and freelancers",
-    Tech: "React , Html , CSS , Javascript",
+    Tech: "React, Html, CSS, Javascript",
   },
   {
     id: 4,
@@ -33,6 +33,6 @@ export const products = [
     link2: "https://naresh-rajput-tannergoods.vercel.app/",
     ProjectName: "Tanner Goods",
     des: "Tanner Goods offers leather-based products such as wallets and bags etc.",
-    Tech: "React , Html , CSS , Javascript",
+    Tech: "React, Redux, Html, CSS, Javascript",
   },
 ];
