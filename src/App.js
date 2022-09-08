@@ -4,6 +4,7 @@ import Contact from "./components/contact/Contact";
 import Intro from "./components/introduction/Intro";
 import Navbar from "./components/Navbar/Navbar";
 import PortFolioList from "./components/portfolioList/PortfolioList";
+import Skill from "./components/Skill/Skill";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context/context";
 
@@ -22,6 +23,7 @@ const App = () => {
       <Intro />
       <About />
       <PortFolioList />
+      <Skill/>
       <Contact />
     </div>
   );

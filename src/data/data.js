@@ -36,3 +36,48 @@ export const products = [
     Tech: "React, Redux, Html, CSS, Javascript",
   },
 ];
+
+export const techStack = [
+  {
+    name: "HTML",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  },
+  {
+    name: "CSS",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
+  },
+  {
+    name: "Javascript",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  },
+  {
+    name: "React",
+    link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+  },
+  {
+    name: "Redux",
+    link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+  },
+
+  {
+    name: "NodeJS",
+    link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+  },
+
+  {
+    name: "Heroku",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg",
+  },
+  {
+    name: "TypeScript",
+    link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+  },
+  {
+    name: "Git",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
+  },
+  {
+    name: "VS Code",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+  },
+];
