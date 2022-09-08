@@ -1,11 +1,11 @@
 import "./intro.css";
 import profile from "../../img/myProfile.png";
 import { BsFillPlayCircleFill, BsGithub, BsLinkedin } from "react-icons/bs";
-import { Box, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 
 const Intro = () => {
   return (
-    <Box className="i" id="intro">
+    <Box className="i" id="intro" lineHeight={'1rem'}>
       <Box className="i-left">
         <Box className="i-left-wrapper">
           <Text className="i-intro">Hello, My name is</Text>
@@ -42,13 +42,13 @@ const Intro = () => {
           <Box class="wrapper">
             <a
               className="resume_link"
-              href="https://drive.google.com/drive/folders/1ACwtO3YPLTFm95n9KqqH-PM16CASyZG8"
+              href="https://drive.google.com/file/d/1hZ24jg4GzGJDCCtpbfuOpmGya2c8Lot2/view?usp=sharing"
               target="blank"
             >
-              <span>
+              <Flex  alignItems={'center'}>
                 Resume
                 <BsFillPlayCircleFill />
-              </span>
+              </Flex>
             </a>
           </Box>
 

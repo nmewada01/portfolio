@@ -6,6 +6,7 @@ import { FcHome, FcPhone } from "react-icons/fc";
 import { AiTwotoneMail } from "react-icons/ai";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import swal from "sweetalert";
+import { Box, Button, Heading, Input, Text, Textarea } from "@chakra-ui/react";
 
 const Contact = () => {
   const [done, setDone] = useState(false);
@@ -37,48 +38,48 @@ const Contact = () => {
 
   return (
     <>
-      <div className="c" id="contact">
-        <div className="c-bg"></div>
-        <div className="c-wrapper">
-          <div className="c-left">
-            <h1 className="c-title" style={{ color:"#59b256" }} >Contacts</h1>
-            <div className="c-info">
-              <h2>Mobile No.</h2>
-              <div className="c-info-item">
+      <Box className="c" id="contact">
+        <Box className="c-bg"></Box>
+        <Box className="c-wrapper">
+          <Box className="c-left">
+            <Heading className="c-title" style={{ color:"#59b256" }} >Contacts</Heading>
+            <Box className="c-info">
+              <Text>Mobile No.</Text>
+              <Box className="c-info-item">
                 <FcPhone size="35px" />
                 &nbsp;&nbsp;&nbsp;+91 9617732664
-              </div>
-              <h2>Mail Me.</h2>
-              <div className="c-info-item">
+              </Box>
+              <Text>Mail Me.</Text>
+              <Box className="c-info-item">
                 <AiTwotoneMail size="35px" />
                 &nbsp;&nbsp;&nbsp; nareshmewada014@gmail.com
-              </div>
-              <h2>Address.</h2>
-              <div className="c-info-item">
+              </Box>
+              <Text>Address.</Text>
+              <Box className="c-info-item">
                 <FcHome size="35px" />
                 &nbsp;&nbsp;&nbsp; Sehore,Madhya Pradesh,India
-              </div>
-              <div style={{ display: "flex", gap: "15px" }}>
-                <h2>connect with me:</h2>
-                <div>
+              </Box>
+              <Box style={{ display: "flex", gap: "15px" }}>
+                <Text>connect with me:</Text>
+                <Box>
                   <a href="https://github.com/nmewada01" target="blank">
                     <BsGithub size="2rem" style={{ color: "blue" }} />
                   </a>
-                </div>
-                <div>
+                </Box>
+                <Box>
                   <a
                     href="https://www.linkedin.com/in/naresh-rajput-659ab5220/"
                     target="blank"
                   >
                     <BsLinkedin size="2rem" style={{ color: "blue" }} />
                   </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="c-right">
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+          <Box className="c-right">
             <p className="c-desc">
-              <button>say Hello</button>
+              <Button>say Hello</Button>
               <br />
               Hello! I am a Full Stack Web Developer. Seeking for new
               opportunity. I know html,css,javascript,react language. <br />
@@ -90,29 +91,29 @@ const Contact = () => {
             {/* ---------------------------------------------------------------------------------------------------------------------------- */}
 
             <form ref={form} onSubmit={sendEmail}>
-              <input
+              <Input
                 style={{ backgroundColor: darkMode && "#333" }}
                 type="text"
                 name="user_name"
               />
 
-              <input
+              <Input
                 style={{ backgroundColor: darkMode && "#333" }}
                 type="email"
                 name="user_email"
               />
-              <textarea
+              <Textarea
                 style={{ backgroundColor: darkMode && "#333" }}
                 name="message"
               />
-              <input type="submit" value="Send"></input>
+              <Input type="submit" value="Send"></Input>
               {done && "Thank you..."}
             </form>
-          </div>
-        </div>
-      </div>
+          </Box>
+        </Box>
+      </Box>
 
-      <div className="google_map" id="map">
+      <Box className="google_map" id="map">
         <iframe
           width="100%"
           height="500vh"
@@ -124,7 +125,7 @@ const Contact = () => {
           style={{ filter: "opacity(0.7)" }}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.2101264154026!2d77.14672540176383!3d23.27987928685255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c8b714930e83d%3A0xfd8043898cc1b88a!2sNarayan%20Singh%20Ji%20Patel%20House!5e1!3m2!1sen!2sin!4v1659842088184!5m2!1sen!2sin"
         />
-      </div>
+      </Box>
     </>
   );
 };

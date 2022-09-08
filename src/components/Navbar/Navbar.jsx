@@ -37,6 +37,16 @@ const Navbar = () => {
           <Box className={styles.nav}>Project</Box>
         </Link>
         <Link
+          to="skill"
+          smooth={true}
+          duration={1000}
+          activeClass={styles.active}
+          spy={true}
+          hashSpy={true}
+        >
+          <Box className={styles.nav}>Skill</Box>
+        </Link>
+        <Link
           to="contact"
           smooth={true}
           duration={1000}
