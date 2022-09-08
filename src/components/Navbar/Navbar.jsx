@@ -1,10 +1,11 @@
+import { Box } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "react-scroll";
 import styles from "./Navbar.module.css";
 const Navbar = () => {
   return (
-    <div className={styles.root}>
-      <div className={styles.navsCont}>
+    <Box className={styles.root}>
+      <Box className={styles.navsCont}>
         <Link
           to="intro"
           smooth={true}
@@ -13,7 +14,7 @@ const Navbar = () => {
           spy={true}
           hashSpy={true}
         >
-          <div className={styles.nav}>Intro</div>
+          <Box className={styles.nav}>Intro</Box>
         </Link>
         <Link
           to="about"
@@ -23,7 +24,7 @@ const Navbar = () => {
           spy={true}
           hashSpy={true}
         >
-          <div className={styles.nav}>About</div>
+          <Box className={styles.nav}>About</Box>
         </Link>
         <Link
           to="portfoliolist"
@@ -33,7 +34,7 @@ const Navbar = () => {
           spy={true}
           hashSpy={true}
         >
-          <div className={styles.nav}>Project</div>
+          <Box className={styles.nav}>Project</Box>
         </Link>
         <Link
           to="contact"
@@ -43,10 +44,10 @@ const Navbar = () => {
           spy={true}
           hashSpy={true}
         >
-          <div className={styles.nav}>Contact</div>
+          <Box className={styles.nav}>Contact</Box>
         </Link>
-      </div>
-    </div>
+      </Box>
+    </Box>
   );
 };
 
