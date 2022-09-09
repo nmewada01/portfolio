@@ -5,7 +5,7 @@ import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 
 const Intro = () => {
   return (
-    <Box className="i" id="intro" lineHeight={'1rem'}>
+    <Box className="i" id="intro" lineHeight={"1rem"}>
       <Box className="i-left">
         <Box className="i-left-wrapper">
           <Text className="i-intro">Hello, My name is</Text>
@@ -39,13 +39,13 @@ const Intro = () => {
 
           {/* --------------------------------------------------------------------------------------------- */}
 
-          <Box class="wrapper">
+          <Box>
             <a
               className="resume_link"
-              href="https://drive.google.com/file/d/1hZ24jg4GzGJDCCtpbfuOpmGya2c8Lot2/view?usp=sharing"
-              target="blank"
+              href="resume/Naresh's Resume.pdf"
+              download
             >
-              <Flex  alignItems={'center'}>
+              <Flex alignItems={"center"}>
                 Resume
                 <BsFillPlayCircleFill />
               </Flex>

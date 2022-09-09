@@ -42,7 +42,9 @@ const Contact = () => {
         <Box className="c-bg"></Box>
         <Box className="c-wrapper">
           <Box className="c-left">
-            <Heading className="c-title" style={{ color:"#59b256" }} >Contacts</Heading>
+            <Heading className="c-title" style={{ color: "#59b256" }}>
+              Contacts
+            </Heading>
             <Box className="c-info">
               <Text>Mobile No.</Text>
               <Box className="c-info-item">
@@ -79,7 +81,9 @@ const Contact = () => {
           </Box>
           <Box className="c-right">
             <p className="c-desc">
-              <Button bg="#59b256" color={'white'} colorScheme={'green'}>say Hello</Button>
+              <Button bg="#59b256" color={"white"} colorScheme={"green"}>
+                say Hello
+              </Button>
               <br />
               Hello! I am a Full Stack Web Developer. Seeking for new
               opportunity. I know html,css,javascript,react language. <br />

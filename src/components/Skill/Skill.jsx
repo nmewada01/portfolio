@@ -11,7 +11,7 @@ const Skill = () => {
             Ski<span style={{ color: "#59b256" }}>lls</span>
           </Heading>
         </Box>
-        <SimpleGrid mt={"8"} columns={["3", "3", "4", "5"]} mx={"4"}>
+        <SimpleGrid mt={"8"} columns={[3, 4, 5]} mx={"4"}>
           {techStack.map((el, index) => (
             <Box my={"8"}>
               <Image w="20%" alt="" src={el.link} className="w-12" />

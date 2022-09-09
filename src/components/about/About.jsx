@@ -19,13 +19,13 @@ const About = () => {
           <span style={{ color: "#59b256", fontWeight: "bold" }}>About</span> Me
         </Heading>
         <Text className="a-sub">
-          Bsc Computer Science graduate with first Boxision. have a knowledge of
-          Html, CSS, javascript, React, Redux. Honest With My work and vey
-          passionate about to learn new things. Learning New things is for me a
-          motivation to expand my knowledge. And My enthusiasm for health care
-          allows me to stay motivated at work and find importance in what I'm
-          doing. Ability to learn things quickly and capable of working in a
-          fast-paced and team-driven environment.
+          Bsc Computer Science graduate with first Division. I am very punctual
+          and hardworking person. Honest With My work and very passionate about
+          to learn new things. Learning New things is for me a motivation to
+          expand my knowledge. And My enthusiasm for health care allows me to
+          stay motivated at work and find importance in what I'm doing. Ability
+          to learn things quickly and capable of working in a fast-paced and
+          team-driven environment.
         </Text>
         {/* <p className="a-desc">
        

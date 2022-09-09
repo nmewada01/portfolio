@@ -31,7 +31,7 @@ const PortFolio = ({
         bgImage={"linear-gradient(teal,skyblue,lightblue)"}
         my={"20px"}
         mx={"10px"}
-        boxShadow={'rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px'}
+        boxShadow={'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px'}
       >
         <Flex
           justify={"center"}
