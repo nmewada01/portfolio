@@ -79,7 +79,7 @@ const Contact = () => {
           </Box>
           <Box className="c-right">
             <p className="c-desc">
-              <Button>say Hello</Button>
+              <Button bg="#59b256" color={'white'} colorScheme={'green'}>say Hello</Button>
               <br />
               Hello! I am a Full Stack Web Developer. Seeking for new
               opportunity. I know html,css,javascript,react language. <br />
