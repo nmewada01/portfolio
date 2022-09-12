@@ -99,18 +99,21 @@ const Contact = () => {
                 style={{ backgroundColor: darkMode && "#333" }}
                 type="text"
                 name="user_name"
+                placeholder="Your Name"
               />
 
               <Input
                 style={{ backgroundColor: darkMode && "#333" }}
                 type="email"
                 name="user_email"
+                placeholder="Your Email"
               />
               <Textarea
                 style={{ backgroundColor: darkMode && "#333" }}
                 name="message"
+                placeholder="Write Message"
               />
-              <Input type="submit" value="Send"></Input>
+              <Input type="submit" value="Send" bg="black" color={'whitesmoke'} _hover={{color:"green",bg:"none",border:"1px solid blue"}}></Input>
               {done && "Thank you..."}
             </form>
           </Box>
