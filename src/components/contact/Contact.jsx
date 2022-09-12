@@ -94,7 +94,7 @@ const Contact = () => {
 
             {/* ---------------------------------------------------------------------------------------------------------------------------- */}
 
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} className={"form"}>
               <Input
                 style={{ backgroundColor: darkMode && "#333" }}
                 type="text"
@@ -113,7 +113,17 @@ const Contact = () => {
                 name="message"
                 placeholder="Write Message"
               />
-              <Input type="submit" value="Send" bg="black" color={'whitesmoke'} _hover={{color:"green",bg:"none",border:"1px solid blue"}}></Input>
+              <Input
+                type="submit"
+                value="Send"
+                bg="black"
+                color={"whitesmoke"}
+                _hover={{
+                  color: "green",
+                  bg: "none",
+                  border: "1px solid blue",
+                }}
+              ></Input>
               {done && "Thank you..."}
             </form>
           </Box>

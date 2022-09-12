@@ -24,6 +24,7 @@ const App = () => {
       <About />
       <PortFolioList />
       <Skill/>
+   
       <Contact />
     </div>
   );

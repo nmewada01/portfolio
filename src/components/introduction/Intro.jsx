@@ -42,8 +42,8 @@ const Intro = () => {
           <Box>
             <a
               className="resume_link"
-              href="resume/Naresh's Resume.pdf"
-              download
+              href={require("../../resume/Naresh's Resume.pdf")}
+              download="Naresh's Resume"
             >
               <Flex alignItems={"center"}>
                 Resume
