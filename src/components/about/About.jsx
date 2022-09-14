@@ -1,13 +1,11 @@
 import "./about.css";
 import React from "../../img/react.svg";
-import javascript from "../../img/javascript.svg";
-import html from "../../img/html.svg";
-import css from "../../img/css.svg";
 import myImage from "../../img/png.png";
 import { Box, Heading, Image, Text } from "@chakra-ui/react";
+
 const About = () => {
   return (
-    <Box className="a" id="about">
+    <Box className="a" id="about" >
       <Box className="a-left">
         <Box className="a-card bg"></Box>
         <Box className="a-card">
@@ -31,6 +29,7 @@ const About = () => {
        
         </p> */}
       </Box>
+    
     </Box>
   );
 };

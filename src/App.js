@@ -23,7 +23,7 @@ const App = () => {
       <Intro />
       <About />
       <PortFolioList />
-      <Skill/>
+      <Skill />
    
       <Contact />
     </div>

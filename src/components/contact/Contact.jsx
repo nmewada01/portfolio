@@ -38,7 +38,7 @@ const Contact = () => {
 
   return (
     <>
-      <Box className="c" id="contact">
+      <Box className="c" id="contact" my={"2rem"}>
         <Box className="c-bg"></Box>
         <Box className="c-wrapper">
           <Box className="c-left">
