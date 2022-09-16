@@ -22,9 +22,8 @@ const App = () => {
       <Navbar />
       <Intro />
       <About />
-      <PortFolioList />
       <Skill />
-   
+      <PortFolioList />
       <Contact />
     </div>
   );

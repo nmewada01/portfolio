@@ -15,7 +15,7 @@ const Skill = () => {
         <SimpleGrid mt={"8"} columns={[3, 4, 5]} mx={"4"} gap="1rem" >
           {techStack.map((el, index) => (
             <Box my={"8"} transition={'all 0.9s ease'} _hover={{transform:"scale(1.5)"}}   >
-              <Image  w="25%" alt="" src={el.link} className="w-12" ml={'auto'} mr={'auto'}  display={'block'}/>
+              <Image  w="50%" alt="" src={el.link} className="w-12" ml={'auto'} mr={'auto'}  display={'block'}/>
               <Text fontSize={"lg"} ml={"4"} align="center">
                 {el.name}
               </Text>
