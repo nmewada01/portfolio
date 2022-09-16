@@ -10,7 +10,7 @@ const PortFolioList = () => {
         <Heading width={'95%'} m="auto">My <span style={{ color:"#59b256" }}>Projects</span></Heading>
         <Text ></Text>
       </Box>
-      <SimpleGrid columns={[1,2,3]} width={'95%'} m="auto">
+      <SimpleGrid columns={[1,2,2,3]} width={'95%'} m="auto">
         {products.map((item) => (
           <>
             <PortFolio key={item.id} img={item.img} link2={item.link2} link1={item.link1} ProjectName={item.ProjectName} description={item.des} techstack={item.Tech}/>

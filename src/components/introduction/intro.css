@@ -97,6 +97,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 7rem;
+  
 }
 
 .resume_link {
@@ -114,6 +115,8 @@
   text-align: left;
   position: relative;
   transition: all 0.35s;
+
+ 
 }
 
 .resume_link span {

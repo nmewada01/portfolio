@@ -18,7 +18,7 @@ const PortFolio = ({
   techstack,
   key
 }) => {
-  const [isLargerThan] = useMediaQuery('(min-width: 750px)')
+  const [isLargerThan] = useMediaQuery('(min-width: 769px)')
 
   return (
     <>
