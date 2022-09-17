@@ -14,6 +14,12 @@ import GitHubGreen from "../GitHub/GitHubGreen";
 import "./Skill.css";
 const Skill = () => {
   const [isLargerThan] = useMediaQuery("(min-width: 426px)");
+
+  const hovering = {
+    transform: "scale(1.2)",
+    boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+    p: "0.5rem",
+  };
   return (
     <>
       <Box id="skill" min-h={"100vh"} m="auto" w={"95%"} my={"7rem"}>
@@ -51,7 +57,12 @@ const Skill = () => {
                 mr={"auto"}
                 display={"block"}
               />
-              <Text fontSize={"lg"} ml={"4"} align="center" fontWeight={'semibold'}>
+              <Text
+                fontSize={"lg"}
+                ml={"4"}
+                align="center"
+                fontWeight={"semibold"}
+              >
                 {el.name}
               </Text>
             </Box>
@@ -59,7 +70,7 @@ const Skill = () => {
         </SimpleGrid>
         <Divider />
         <Text
-        my={'7'}
+          my={"7"}
           fontSize={"2xl"}
           fontWeight={"semibold"}
           textAlign={"center"}
@@ -75,12 +86,14 @@ const Skill = () => {
           fontWeight={"extrabold"}
           justifyContent={"space-around"}
           flexDirection={isLargerThan ? "row" : "column"}
+          justifyItems={'center'}
+          
         >
-          <Box>🎯 Punctuality</Box>
-          <Box>🎯 Hardworking</Box>
-          <Box>🎯 Adaptability</Box>
-          <Box>🎯 Teamwork</Box>
-          <Box>🎯 self-Motivated</Box>
+          <Box   transition="all 0.9s ease" _hover={hovering}>🎯 Punctuality</Box>
+          <Box  transition="all 0.9s ease" _hover={hovering}>🎯 Hardworking</Box>
+          <Box  transition="all 0.9s ease" _hover={hovering}>🎯 Adaptability</Box>
+          <Box  transition="all 0.9s ease" _hover={hovering}>🎯 Teamwork</Box>
+          <Box  transition="all 0.9s ease" _hover={hovering}>🎯 self-Motivated</Box>
         </Flex>
         <Divider />
         <GitHubGreen />
