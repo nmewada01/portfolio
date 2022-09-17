@@ -159,6 +159,7 @@
     text-align: center;
     height: 100%;
   }
+ 
 
   .i-desc {
     display: none;
@@ -291,4 +292,22 @@
   .i-right {
     margin-top: 3rem;
   }
+}
+
+.typeWritertheme {
+	border-right: 3px solid black;
+	width: 0ch;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typewriter 10s infinite alternate;
+}
+
+@keyframes typewriter {
+	0% {
+		width: 0ch;
+	}
+
+	50% {
+		width: 11ch;
+	}
 }
