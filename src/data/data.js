@@ -58,10 +58,29 @@ export const techStack = [
     name: "Redux",
     link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
   },
-
+  {
+    name: "BootStrap",
+    link: "https://static.cdnlogo.com/logos/b/74/bootstrap-5.svg",
+  },
+  {
+    name: "Chakra UI",
+    link: "https://bestofjs.org/logos/chakra-ui.svg",
+  },
   {
     name: "NodeJS",
     link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+  },
+  {
+    name: "NPM",
+    link: "https://static.cdnlogo.com/logos/n/68/npm.svg",
+  },
+  {
+    name: "Git",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
+  },
+  {
+    name: "Postman",
+    link: "https://ships-portfolio.netlify.app/images/postman.png",
   },
 
   {
@@ -69,13 +88,10 @@ export const techStack = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg",
   },
   {
-    name: "TypeScript",
-    link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+    name: "Github",
+    link: "https://static.cdnlogo.com/logos/g/69/github-icon.svg",
   },
-  {
-    name: "Git",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
-  },
+
   {
     name: "VS Code",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",

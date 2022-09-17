@@ -1,9 +1,11 @@
 import "./intro.css";
 import profile from "../../img/myProfile.png";
 import { BsFillPlayCircleFill, BsGithub, BsLinkedin } from "react-icons/bs";
-import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image, Text, useMediaQuery } from "@chakra-ui/react";
 
 const Intro = () => {
+  const [isLargerThan] = useMediaQuery("(min-width: 769px)");
+
   return (
     <Box className="i" id="intro" lineHeight={"1rem"}>
       <Box className="i-left">

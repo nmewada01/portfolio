@@ -16,22 +16,22 @@ const PortFolio = ({
   ProjectName,
   description,
   techstack,
-  key
+  key,
 }) => {
-  const [isLargerThan] = useMediaQuery('(min-width: 769px)')
+  const [isLargerThan] = useMediaQuery("(min-width: 769px)");
 
   return (
     <>
       <Box
-      key={key}
-        w={isLargerThan?"85%":"95%"}
+        key={key}
+        w={isLargerThan ? "85%" : "95%"}
         h={"50vh"}
         borderRadius="10px 10px 0px 0px"
         overflow={"hidden"}
         bgImage={"linear-gradient(teal,skyblue,lightblue)"}
         my={"20px"}
         mx={"10px"}
-        boxShadow={'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px'}
+        _hover={{boxShadow:"rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px"}}
       >
         <Flex
           justify={"center"}
@@ -65,9 +65,9 @@ const PortFolio = ({
           </Text>
         </Flex>
         <Box
-          h={isLargerThan?"10vh":"15vh"}
+          min-h={isLargerThan ? "10vh" : "15vh"}
           bg={"grey"}
-          color={'whitesmoke'}
+          color={"whitesmoke"}
           position={"sticky"}
           zIndex={"2"}
         >
@@ -83,7 +83,10 @@ const PortFolio = ({
           </Box>
           <Box>{description}</Box>
           <Box>
-            <Text> <Code color={'green'}>Tech Stack:</Code> {techstack}</Text>
+            <Text>
+              {" "}
+              <Code color={"green"}>Tech Stack:</Code> {techstack}
+            </Text>
           </Box>
         </Box>
 
@@ -91,7 +94,7 @@ const PortFolio = ({
           display={"block"}
           m="auto"
           my={"6"}
-          w={isLargerThan?"80%":"50%"}
+          w={isLargerThan ? "80%" : "50%"}
           _hover={{ transform: "translateX(-100%)" }}
           transition="all 10s ease"
           src={img}

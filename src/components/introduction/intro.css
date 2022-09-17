@@ -115,7 +115,8 @@
   text-align: left;
   position: relative;
   transition: all 0.35s;
-
+  border-radius: 2rem;
+  overflow: hidden;
  
 }
 
