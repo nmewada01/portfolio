@@ -5,7 +5,7 @@ import { Box, Heading, Image, Text } from "@chakra-ui/react";
 
 const About = () => {
   return (
-    <Box className="a" id="about" >
+    <Box className="a" id="about">
       <Box className="a-left">
         <Box className="a-card bg"></Box>
         <Box className="a-card">
@@ -29,7 +29,6 @@ const About = () => {
        
         </p> */}
       </Box>
-    
     </Box>
   );
 };

@@ -6,7 +6,6 @@
   border: 2px solid beige;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
-  background-image:linear-gradient(#e31740,#dd294d,#f84568);
 }
 
 .p-browser {
@@ -31,7 +30,7 @@
 }
 
 .p:hover .p-img {
-  transform: translateX(-100%);
+  transform:translateX(-50%)
 }
 
 @media screen and (max-width: 480px) {
@@ -61,8 +60,6 @@
   font-size: 20px;
   font-family: sans-serif;
   text-decoration: none;
-  color: whitesmoke;
-  border: 2px solid whitesmoke;
   letter-spacing: 2px;
   text-align: center;
   position: relative;

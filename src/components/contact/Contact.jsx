@@ -6,12 +6,25 @@ import { FcHome, FcPhone } from "react-icons/fc";
 import { AiTwotoneMail } from "react-icons/ai";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import swal from "sweetalert";
-import { Box, Button, Heading, Input, Text, Textarea } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Divider,
+  Heading,
+  Image,
+  Input,
+  Text,
+  Textarea,
+  useMediaQuery,
+} from "@chakra-ui/react";
+import ThankYou from "../../img/thank-you.png";
 
 const Contact = () => {
   const [done, setDone] = useState(false);
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+  const [isLargerThan] = useMediaQuery("(min-width: 468px)");
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -27,6 +40,7 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           swal("¡Success!", "Message sent!", "success");
+          setDone(true);
         },
         (error) => {
           console.log(error.text);
@@ -65,7 +79,10 @@ const Contact = () => {
                 <Text>connect with me:</Text>
                 <Box>
                   <a href="https://github.com/nmewada01" target="blank">
-                    <BsGithub size="2rem" style={{ color: "blue" }} />
+                    <BsGithub
+                      size="2rem"
+                      color={darkMode ? "white" : "green"}
+                    />
                   </a>
                 </Box>
                 <Box>
@@ -73,15 +90,23 @@ const Contact = () => {
                     href="https://www.linkedin.com/in/naresh-rajput-659ab5220/"
                     target="blank"
                   >
-                    <BsLinkedin size="2rem" style={{ color: "blue" }} />
+                    <BsLinkedin
+                      size="2rem"
+                      color={darkMode ? "white" : "green"}
+                    />
                   </a>
                 </Box>
               </Box>
             </Box>
           </Box>
-          <Box className="c-right">
+          {isLargerThan ? null : <Divider my={"5"} />}
+          <Box className="c-right" lineHeight={"2rem"}>
             <p className="c-desc">
-              <Button bg="#59b256" color={"white"} colorScheme={"green"}>
+              <Button
+                color={darkMode ? "white" : "green"}
+                bg={darkMode ? "#59b256" : "white"}
+                my={"3"}
+              >
                 say Hello
               </Button>
               <br />
@@ -116,20 +141,23 @@ const Contact = () => {
               <Input
                 type="submit"
                 value="Send"
-                bg="black"
+                bg="#59b256"
+                w="50%"
                 color={"whitesmoke"}
                 _hover={{
                   color: "green",
                   bg: "none",
-                  border: "1px solid blue",
                 }}
               ></Input>
-              {done && "Thank you..."}
+              {done && (
+                <Image src={ThankYou} w="100%" h="25vh" alt="thankyou" />
+              )}
             </form>
           </Box>
         </Box>
       </Box>
 
+      <Divider />
       <Box className="google_map" id="map">
         <iframe
           width="100%"

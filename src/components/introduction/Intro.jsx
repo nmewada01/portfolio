@@ -9,16 +9,23 @@ import {
   Text,
   useMediaQuery,
 } from "@chakra-ui/react";
+import { useContext } from "react";
+import { ThemeContext } from "../../context/context";
 
 const Intro = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   const [isLargerThan] = useMediaQuery("(min-width: 430px)");
 
+
   return (
-    <Box className="i" id="intro" lineHeight={"1rem"}>
+    <Box className="i" id="intro" lineHeight={"1rem"} flexDirection={isLargerThan?"row":"column"}>
       <Box className="i-left">
         <Box className="i-left-wrapper">
-          <Text className="i-intro" my={'5'}>Hello, My name is</Text>
-          <Heading className={isLargerThan ? "i-name" : "typeWritertheme"}>
+          <Text className="i-intro" my={"5"}>
+            Hello, My name is
+          </Text>
+          <Heading className={isLargerThan ? "i-name" : "typeWritertheme"} >
             Naresh <span style={{ color: "#59b256" }}>Rajput</span>
           </Heading>
           {isLargerThan ? (
@@ -32,10 +39,13 @@ const Intro = () => {
               </Box>
             </Box>
           ) : null}
-          <Box style={{ display: "flex", gap: "15px", marginBottom: "1rem" }} my={'5'}>
+          <Box
+            style={{ display: "flex", gap: "15px", marginBottom: "1rem" }}
+            my={"5"}
+          >
             <Box>
               <a href="https://github.com/nmewada01" target="blank">
-                <BsGithub size="2rem" style={{ color: "blue" }} />
+                <BsGithub size="2rem" color={darkMode?"white":"green"} />
               </a>
             </Box>
             <Box>
@@ -43,7 +53,7 @@ const Intro = () => {
                 href="https://www.linkedin.com/in/naresh-rajput-659ab5220/"
                 target="blank"
               >
-                <BsLinkedin size="2rem" style={{ color: "blue" }} />
+                <BsLinkedin size="2rem" color={darkMode?"white":"green"} />
               </a>
             </Box>
           </Box>
@@ -55,9 +65,9 @@ const Intro = () => {
               className="resume_link"
               href={require("../../resume/Naresh's Resume.pdf")}
               download="Naresh's Resume"
-              my={'5'}
+              my={"5"}
             >
-              <Flex alignItems={"center"}>
+              <Flex alignItems={"center"} bg={darkMode?"white":"#2a3132"} color={darkMode?"black":"white"}  >
                 Resume
                 <BsFillPlayCircleFill />
               </Flex>

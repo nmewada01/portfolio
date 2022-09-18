@@ -14,13 +14,13 @@ const App = () => {
   return (
     <div
       style={{
-        backgroundColor: darkMode ? "#222" : "white",
+        backgroundColor: darkMode ? "#2a3132" : "#f1f1f2",
         color: darkMode && "white",
       }}
     >
       <Toggle />
       <Navbar />
-      <Intro />
+      <Intro /><br/>
       <About />
       <Skill />
       <PortFolioList />
