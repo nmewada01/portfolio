@@ -19,8 +19,8 @@ const Skill = () => {
   const hovering = {
     transform: "scale(1.1)",
     boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
-    bg:"skyblue",
-    px:"0.5rem"
+    bg: "skyblue",
+    px: "0.5rem",
   };
   return (
     <>
@@ -49,8 +49,7 @@ const Skill = () => {
                 transform: "scale(1.2)",
                 boxShadow:
                   "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
-                  bg:"skyblue",
-                  
+                bg: "skyblue",
               }}
             >
               <Image
@@ -61,14 +60,8 @@ const Skill = () => {
                 ml={"auto"}
                 mr={"auto"}
                 display={"block"}
-                
               />
-              <Text
-                fontSize={"lg"}
-                ml={"4"}
-                align="center"
-                fontWeight={"semibold"}
-              >
+              <Text fontSize={"lg"} align="center" fontWeight={"semibold"}>
                 {el.name}
               </Text>
             </Box>

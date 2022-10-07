@@ -17,15 +17,19 @@ const Intro = () => {
   const darkMode = theme.state.darkMode;
   const [isLargerThan] = useMediaQuery("(min-width: 430px)");
 
-
   return (
-    <Box className="i" id="intro" lineHeight={"1rem"} flexDirection={isLargerThan?"row":"column"}>
+    <Box
+      className="i"
+      id="intro"
+      lineHeight={"1rem"}
+      flexDirection={isLargerThan ? "row" : "column"}
+    >
       <Box className="i-left">
         <Box className="i-left-wrapper">
           <Text className="i-intro" my={"5"}>
             Hello, My name is
           </Text>
-          <Heading className={isLargerThan ? "i-name" : "typeWritertheme"} >
+          <Heading className={isLargerThan ? "i-name" : "typeWritertheme"}>
             Naresh <span style={{ color: "#59b256" }}>Rajput</span>
           </Heading>
           {isLargerThan ? (
@@ -45,7 +49,7 @@ const Intro = () => {
           >
             <Box>
               <a href="https://github.com/nmewada01" target="blank">
-                <BsGithub size="2rem" color={darkMode?"white":"green"} />
+                <BsGithub size="2rem" color={darkMode ? "white" : "green"} />
               </a>
             </Box>
             <Box>
@@ -53,7 +57,7 @@ const Intro = () => {
                 href="https://www.linkedin.com/in/naresh-rajput-659ab5220/"
                 target="blank"
               >
-                <BsLinkedin size="2rem" color={darkMode?"white":"green"} />
+                <BsLinkedin size="2rem" color={darkMode ? "white" : "green"} />
               </a>
             </Box>
           </Box>
@@ -63,11 +67,15 @@ const Intro = () => {
           <Box>
             <a
               className="resume_link"
-              href={require("../../resume/Naresh's Resume.pdf")}
+              href={require("../../resume/Naresh's_Resume.pdf")}
               download="Naresh's Resume"
               my={"5"}
             >
-              <Flex alignItems={"center"} bg={darkMode?"white":"#2a3132"} color={darkMode?"black":"white"}  >
+              <Flex
+                alignItems={"center"}
+                bg={darkMode ? "white" : "#2a3132"}
+                color={darkMode ? "black" : "white"}
+              >
                 Resume
                 <BsFillPlayCircleFill />
               </Flex>
