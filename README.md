@@ -7,7 +7,7 @@
 Naresh Rajput. I am a Full Stack Developer with a passion for development and excited to learn new things. I am very flexible and adaptive to learning new things and My enthusiasm for health care allows me to stay motivated at work and find importance in what I'm doing.
 </p>
 
-<h3>My Portfolio <a href="https://naresh-rajput-portfolio.vercel.app/" alt="portfolio">click here</a></h3>
+<h3>My Portfolio <a href="https://nmewada01.github.io/portfolio" alt="portfolio">click here</a></h3>
 
 <h2>Projects</h2>
 
