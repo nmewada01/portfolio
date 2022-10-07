@@ -67,7 +67,7 @@ const Intro = () => {
           <Box>
             <a
               className="resume_link"
-              href={require("../../resume/Naresh's_Resume.pdf")}
+              href={require("../../resume/Naresh_Rajput's_Resume.pdf")}
               download="Naresh's Resume"
               my={"5"}
             >
