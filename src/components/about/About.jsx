@@ -4,6 +4,7 @@ import myImage from "../../img/png.png";
 import { Box, Heading, Image, Text } from "@chakra-ui/react";
 
 const About = () => {
+
   return (
     <Box className="a" id="about">
       <Box className="a-left">

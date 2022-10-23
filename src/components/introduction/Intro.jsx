@@ -15,7 +15,7 @@ import { ThemeContext } from "../../context/context";
 const Intro = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
-  const [isLargerThan] = useMediaQuery("(min-width: 430px)");
+  const [isLargerThan] = useMediaQuery("(min-width: 489px)");
 
   return (
     <Box
@@ -27,12 +27,12 @@ const Intro = () => {
       <Box className="i-left">
         <Box className="i-left-wrapper">
           <Text className="i-intro" my={"5"}>
-            Hello, My name is
+            Hello, <br/><br/>My name <br/><br/>is
           </Text>
           <Heading className={isLargerThan ? "i-name" : "typeWritertheme"}>
             Naresh <span style={{ color: "#59b256" }}>Rajput</span>
           </Heading>
-          {isLargerThan ? (
+          {/* {isLarger ? (
             <Box className="i-title">
               <Box className="i-title-wrapper">
                 <Box className="i-title-item">Full Stack Developer</Box>
@@ -42,9 +42,10 @@ const Intro = () => {
                 <Box className="i-title-item">Html/CSS</Box>
               </Box>
             </Box>
-          ) : null}
+          ) : null} */}
           <Box
-            style={{ display: "flex", gap: "15px", marginBottom: "1rem" }}
+          display="flex" gap="15px" marginBottom={'1rem'}
+            // style={{ display: "flex", gap: "15px", marginBottom: "1rem" }}
             my={"5"}
           >
             <Box>
@@ -91,7 +92,7 @@ const Intro = () => {
       </Box>
       <Box className="i-right">
         <Box className="i-bg"></Box>
-        <Image src={profile} alt="" className="i-img" />
+        <Image src={profile} alt="Naresh Rajput" className="i-img" />
       </Box>
     </Box>
   );
