@@ -15,7 +15,7 @@ const About = () => {
           <span style={{ color: "#59b256", fontWeight: "bold" }}>About</span> Me
         </Heading>
         <Text className="a-sub">
-          I am a Bsc Computer Science graduate,and a Full Stack Web Developer.
+          I'm a Bsc Computer Science graduate,and a Full Stack Web Developer.
           I'm a analytical, solution-focused, and detail-oriented Full Stack Web
           Developer with the ability to adapt to new environments quickly.
           Problem solving mindset with committed to shared goals and highly
