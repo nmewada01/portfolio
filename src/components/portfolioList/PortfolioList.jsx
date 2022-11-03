@@ -6,10 +6,9 @@ const PortFolioList = () => {
   return (
     <Box id="portfoliolist" m="1rem">
       <Box>
-        <Heading width={"95%"} m="auto">
+        <Heading width={"95%"} m="auto" >
           My <span style={{ color: "#59b256" }}>Projects</span>
         </Heading>
-        <Text></Text>
       </Box>
       <SimpleGrid columns={[1, 2, 2, 3]} width={"95%"} m="auto">
         {products.length > 0 &&

@@ -10,7 +10,7 @@ export const products = [
   },
   {
     id: 2,
-    img: "https://user-images.githubusercontent.com/101567054/187376572-ca546ad5-a4ae-4748-8b22-40d9e02c5722.png",
+    img: "https://user-images.githubusercontent.com/101567054/199736931-1abc5f30-563b-4030-8b5c-f6bd316ab38a.png",
     link1: "https://github.com/nmewada01/Tanner-Goods",
     link2: "https://naresh-rajput-tannergoods.vercel.app/",
     ProjectName: "Tanner Goods",
@@ -19,7 +19,7 @@ export const products = [
   },
   {
     id: 3,
-    img: "https://desktime.com/blog/wp-content/uploads/2022/07/desk-setup.png",
+    img: "https://user-images.githubusercontent.com/101567054/199736076-e9390292-7084-4249-bd33-7c66e176c897.png",
     link1: "https://github.com/nmewada01/DeskTime",
     link2: "https://desktime-project-nmewada01.vercel.app/",
     ProjectName: "DeskTime Clone",
@@ -37,7 +37,7 @@ export const products = [
   },
   {
     id: 5,
-    img: "https://camo.githubusercontent.com/364eee9401c3762836d9cc8f020b2f5be0ff3af7fe2f46aa32025c34e0afa39d/68747470733a2f2f7974332e67677068742e636f6d2f7974632f414b65644f4c527348756f656f6576444a6f794242454371456b68674a74747a6944337a584c316a3457554332773d733930302d632d6b2d63307830306666666666662d6e6f2d726a",
+    img: "https://user-images.githubusercontent.com/101567054/199735277-d163e3e3-6835-4e9b-97dc-52f1dc1fca92.png",
     link1: "https://github.com/nmewada01/BangGood-Project",
     link2: "https://harshvyas2704.github.io/unit2-project-banggood/",
     ProjectName: "BangGood clone",

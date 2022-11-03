@@ -17,7 +17,7 @@ a {
 }
 .navsCont {
   display: grid;
-  grid-template-columns: repeat(5, 20%);
+  grid-template-columns: repeat(6, 15%);
   align-items: center;
 }
 .nav {

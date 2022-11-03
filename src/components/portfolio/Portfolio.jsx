@@ -1,4 +1,12 @@
-import { Box, Code, Flex, Image, Text, useMediaQuery } from "@chakra-ui/react";
+import {
+  Box,
+  Code,
+  Flex,
+  Image,
+  Text,
+  Tooltip,
+  useMediaQuery,
+} from "@chakra-ui/react";
 import "./portfolio.css";
 import { FaEye, FaGithub } from "react-icons/fa";
 import { useContext } from "react";
@@ -21,7 +29,7 @@ const PortFolio = ({
       <Box
         key={id}
         w={isLargerThan ? "85%" : "95%"}
-        h={"50vh"}
+        h={"60vh"}
         borderRadius="10px 10px 0px 0px"
         overflow={"hidden"}
         my={"20px"}
@@ -35,30 +43,24 @@ const PortFolio = ({
           alignItems={"center"}
           alignContent={"center"}
         >
-          <Text>
-            <a
-              className="deploy_link"
-              href={link2}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Box mx={"5"} my={"2"} fontSize="2rem">
-                <FaEye />
-              </Box>
-            </a>
-          </Text>
-          <Text>
-            <a
-              className="deploy_link"
-              href={link1}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Box mx={"5"} my={"2"} fontSize="2rem">
-                <FaGithub />
-              </Box>
-            </a>
-          </Text>
+          <Tooltip label="Deploy">
+            <Text>
+              <a href={link2} target="_blank" rel="noreferrer">
+                <Box mx={"5"} my={"2"} fontSize="2rem">
+                  <FaEye />
+                </Box>
+              </a>
+            </Text>
+          </Tooltip>
+          <Tooltip label="Source Code">
+            <Text>
+              <a href={link1} target="_blank" rel="noreferrer">
+                <Box mx={"5"} my={"2"} fontSize="2rem">
+                  <FaGithub />
+                </Box>
+              </a>
+            </Text>
+          </Tooltip>
         </Flex>
         <Box
           min-h={isLargerThan ? "10vh" : "15vh"}
@@ -89,11 +91,10 @@ const PortFolio = ({
           m="auto"
           my={"6"}
           w={isLargerThan ? "80%" : "90%"}
-          _hover={{ transform: "scale(1.2)" }}
-          transition="all 10s ease"
+          _hover={{ transform: "scale(1.5)" }}
+          transition="all 3s ease"
           src={img}
           alt=""
-          className="p-img"
         />
       </Box>
     </>

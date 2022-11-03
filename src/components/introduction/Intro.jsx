@@ -27,7 +27,11 @@ const Intro = () => {
       <Box className="i-left">
         <Box className="i-left-wrapper">
           <Text className="i-intro" my={"5"}>
-            Hello, <br/><br/>My name <br/><br/>is
+            Hello, <br />
+            <br />
+            My name <br />
+            <br />
+            is
           </Text>
           <Heading className={isLargerThan ? "i-name" : "typeWritertheme"}>
             Naresh <span style={{ color: "#59b256" }}>Rajput</span>
@@ -44,7 +48,9 @@ const Intro = () => {
             </Box>
           ) : null} */}
           <Box
-          display="flex" gap="15px" marginBottom={'1rem'}
+            display="flex"
+            gap="15px"
+            marginBottom={"1rem"}
             // style={{ display: "flex", gap: "15px", marginBottom: "1rem" }}
             my={"5"}
           >
@@ -68,8 +74,8 @@ const Intro = () => {
           <Box>
             <a
               className="resume_link"
-              href={require("../../resume/Naresh_Rajput's_Resume.pdf")}
-              download="Naresh's Resume"
+              href={require("../../resume/Naresh_Rajput_Resume.pdf")}
+              download="Naresh_Rajput's Resume"
               my={"5"}
             >
               <Flex
