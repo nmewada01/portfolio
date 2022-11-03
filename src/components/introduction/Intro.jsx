@@ -7,6 +7,7 @@ import {
   Heading,
   Image,
   Text,
+  Tooltip,
   useMediaQuery,
 } from "@chakra-ui/react";
 import { useContext } from "react";
@@ -54,41 +55,48 @@ const Intro = () => {
             // style={{ display: "flex", gap: "15px", marginBottom: "1rem" }}
             my={"5"}
           >
-            <Box>
-              <a href="https://github.com/nmewada01" target="blank">
-                <BsGithub size="2rem" color={darkMode ? "white" : "green"} />
-              </a>
-            </Box>
-            <Box>
-              <a
-                href="https://www.linkedin.com/in/naresh-rajput-659ab5220/"
-                target="blank"
-              >
-                <BsLinkedin size="2rem" color={darkMode ? "white" : "green"} />
-              </a>
-            </Box>
+            <Tooltip label="My Github">
+              <Box>
+                <a href="https://github.com/nmewada01" target="blank">
+                  <BsGithub size="2rem" color={darkMode ? "white" : "green"} />
+                </a>
+              </Box>
+            </Tooltip>
+            <Tooltip label="My Linkedin">
+              <Box>
+                <a
+                  href="https://www.linkedin.com/in/naresh-rajput-659ab5220/"
+                  target="blank"
+                >
+                  <BsLinkedin
+                    size="2rem"
+                    color={darkMode ? "white" : "green"}
+                  />
+                </a>
+              </Box>
+            </Tooltip>
           </Box>
 
           {/* --------------------------------------------------------------------------------------------- */}
-
-          <Box>
-            <a
-              className="resume_link"
-              href={require("../../resume/Naresh_Rajput_Resume.pdf")}
-              download="Naresh_Rajput's Resume"
-              my={"5"}
-            >
-              <Flex
-                alignItems={"center"}
-                bg={darkMode ? "white" : "#2a3132"}
-                color={darkMode ? "black" : "white"}
+          <Tooltip label={"Click To Download Resume"}>
+            <Box>
+              <a
+                className="resume_link"
+                href={require("../../resume/Naresh_Rajput_Resume.pdf")}
+                download="Naresh_Rajput's Resume"
+                my={"5"}
               >
-                Resume
-                <BsFillPlayCircleFill />
-              </Flex>
-            </a>
-          </Box>
-
+                <Flex
+                  alignItems={"center"}
+                  bg={darkMode ? "white" : "#2a3132"}
+                  color={darkMode ? "black" : "white"}
+                >
+                  Resume
+                  <BsFillPlayCircleFill />
+                </Flex>
+              </a>
+            </Box>
+          </Tooltip>
           {/* ------------------------------------------------------------------------------------------------------ */}
 
           {/* <p className="i-desc">

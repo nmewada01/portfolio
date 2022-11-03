@@ -15,6 +15,7 @@ import {
   Input,
   Text,
   Textarea,
+  Tooltip,
   useMediaQuery,
 } from "@chakra-ui/react";
 import ThankYou from "../../img/thank-you.png";
@@ -77,25 +78,29 @@ const Contact = () => {
               </Box>
               <Box style={{ display: "flex", gap: "15px" }}>
                 <Text>connect with me:</Text>
-                <Box>
-                  <a href="https://github.com/nmewada01" target="blank">
-                    <BsGithub
-                      size="2rem"
-                      color={darkMode ? "white" : "green"}
-                    />
-                  </a>
-                </Box>
-                <Box>
-                  <a
-                    href="https://www.linkedin.com/in/naresh-rajput-659ab5220/"
-                    target="blank"
-                  >
-                    <BsLinkedin
-                      size="2rem"
-                      color={darkMode ? "white" : "green"}
-                    />
-                  </a>
-                </Box>
+                <Tooltip label="My Github">
+                  <Box>
+                    <a href="https://github.com/nmewada01" target="blank">
+                      <BsGithub
+                        size="2rem"
+                        color={darkMode ? "white" : "green"}
+                      />
+                    </a>
+                  </Box>
+                </Tooltip>
+                <Tooltip label="My Linkedin">
+                  <Box>
+                    <a
+                      href="https://www.linkedin.com/in/naresh-rajput-659ab5220/"
+                      target="blank"
+                    >
+                      <BsLinkedin
+                        size="2rem"
+                        color={darkMode ? "white" : "green"}
+                      />
+                    </a>
+                  </Box>
+                </Tooltip>
               </Box>
             </Box>
           </Box>
