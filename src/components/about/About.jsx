@@ -15,13 +15,14 @@ const About = () => {
           <span style={{ color: "#59b256", fontWeight: "bold" }}>About</span> Me
         </Heading>
         <Text className="a-sub">
-          I'm a Bsc Computer Science graduate,and a Full Stack Web Developer.
-          I'm a analytical, solution-focused, and detail-oriented Full Stack Web
-          Developer with the ability to adapt to new environments quickly.
-          Problem solving mindset with committed to shared goals and highly
-          believed in team work. Has 1100+ hours of hands on experience in web
-          development and always energetic and eager to learn new things.
-          Learning New things is for me a motivation to expand my knowledge and always honest with my work.
+          I'm a Bsc Computer Science graduate and A MERN developer having
+          1100+hrs of hands on experience in web development and always
+          energetic and eager to learn new things,Learning new things is for me
+          a motivation to expand my knowledge and always honest with my work.
+          also collaborative, flexible and versatile who loves to develop the
+          websites using mern stack. Ambitious and hardworking individual with
+          competency in web development and looking forward to work in the
+          software industry.
         </Text>
         {/* <p className="a-desc">
        
