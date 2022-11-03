@@ -34,6 +34,7 @@ const PortFolio = ({
         overflow={"hidden"}
         my={"20px"}
         mx={"10px"}
+        p={"2"}
         border="1px solid skyblue"
         _hover={{ border: "3px solid skyblue" }}
       >
@@ -74,6 +75,8 @@ const PortFolio = ({
               fontSize={"lg"}
               fontWeight={"semibold"}
               textDecoration={"underline"}
+              textAlign={"center"}
+              my={"1"}
             >
               {ProjectName}
             </Text>
@@ -86,16 +89,17 @@ const PortFolio = ({
           </Box>
         </Box>
 
-        <Image
-          display={"block"}
-          m="auto"
-          my={"6"}
-          w={isLargerThan ? "80%" : "90%"}
-          _hover={{ transform: "scale(1.5)" }}
-          transition="all 3s ease"
-          src={img}
-          alt=""
-        />
+        <Box mt={"10"} display="inline-block" overflow={"hidden"}>
+          <Image
+            transition="transform .4s"
+            display="block"
+            m="auto"
+            w={"100%"}
+            _hover={{ transform: "scale(1.2)", transformOrigin: "50% 50%" }}
+            src={img}
+            alt=""
+          />
+        </Box>
       </Box>
     </>
   );
