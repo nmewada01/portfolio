@@ -78,7 +78,7 @@ const Intro = () => {
           </Box>
 
           {/* --------------------------------------------------------------------------------------------- */}
-          <Tooltip label={"Click To Download My Resume"}>
+          <Tooltip label={"Click To Download Resume"}>
             <Box>
               <a
                 className="resume_link"
