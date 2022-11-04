@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    img: "https://user-images.githubusercontent.com/101567054/199777730-6b604575-c6de-4a26-9b1e-7f7cfef21324.png",
+    img: "https://user-images.githubusercontent.com/101567054/200035129-35540c4e-063f-459b-9b6b-1efe04fde716.png",
     link1: "https://github.com/nmewada01/e-commerce",
     link2: "https://nareshrajput-sports-site.vercel.app/",
     ProjectName: "Sports-K",
@@ -10,7 +10,7 @@ export const products = [
   },
   {
     id: 2,
-    img: "https://user-images.githubusercontent.com/101567054/199778001-275bd130-0df7-475d-bd5d-8063c55f69b6.png",
+    img: "https://user-images.githubusercontent.com/101567054/200035691-315d14fe-caad-4704-bf05-58b448b13f95.png",
     link1: "https://github.com/nmewada01/Tanner-Goods",
     link2: "https://naresh-rajput-tannergoods.vercel.app/",
     ProjectName: "Tanner Goods",
@@ -19,7 +19,7 @@ export const products = [
   },
   {
     id: 3,
-    img: "https://user-images.githubusercontent.com/101567054/199778651-485b213b-5ad6-4486-a299-a3b603a15375.png",
+    img: "https://user-images.githubusercontent.com/101567054/200036503-00b105e8-5dd9-49c6-a2fc-d89b3e490ce7.png",
     link1: "https://github.com/nmewada01/DeskTime",
     link2: "https://desktime-project-nmewada01.vercel.app/",
     ProjectName: "DeskTime Clone",
@@ -28,7 +28,7 @@ export const products = [
   },
   {
     id: 4,
-    img: "https://user-images.githubusercontent.com/101567054/199778804-d52a5880-089a-4706-9881-c6a95669a885.png",
+    img: "https://user-images.githubusercontent.com/101567054/200037266-5c72b8f2-1053-43bc-8bac-6f248c6d205f.png",
     link1: "https://github.com/nmewada01/Bath-and-Body-Works",
     link2: "https://harshvyas2704.github.io/bath-and-body-works-2/",
     ProjectName: "Bath And Body Works clone",
@@ -37,7 +37,7 @@ export const products = [
   },
   {
     id: 5,
-    img: "https://user-images.githubusercontent.com/101567054/199778835-e00c2c16-69fb-4b99-bbdc-ed56c916b279.png",
+    img: "https://user-images.githubusercontent.com/101567054/200036520-c3b4cac5-b9cf-4255-b555-58bf4d8a8d40.png",
     link1: "https://github.com/nmewada01/BangGood-Project",
     link2: "https://euphonious-cheesecake-116736.netlify.app/",
     ProjectName: "BangGood clone",

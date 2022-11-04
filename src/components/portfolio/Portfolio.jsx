@@ -36,7 +36,7 @@ const PortFolio = ({
         mx={"10px"}
         p={"2"}
         border="1px solid skyblue"
-        _hover={{ border: "3px solid skyblue" }}
+        _hover={{ border: "2px solid #59b256" }}
       >
         <Flex
           justify={"center"}
@@ -89,7 +89,7 @@ const PortFolio = ({
           </Box>
         </Box>
 
-        <Box mt={"10"} display="inline-block" overflow={"hidden"}>
+        <Box mt={"2"} display="inline-block" overflow={"hidden"}>
           <Image
             transition="transform .4s"
             display="block"
