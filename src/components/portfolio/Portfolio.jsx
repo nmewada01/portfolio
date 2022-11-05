@@ -32,9 +32,9 @@ const PortFolio = ({
     <>
       <Stack
         key={id}
-        align='stretch'
+        align="stretch"
         w={isLargerThan ? "85%" : "100%"}
-        h={["60vh", "60vh", "70vh", "90vh"]}
+        h={["60vh", "80vh", "90vh", "80vh"]}
         borderRadius="10px 10px 0px 0px"
         overflow={"hidden"}
         my={"20px"}
@@ -52,7 +52,7 @@ const PortFolio = ({
           <Tooltip label="Deploy">
             <Text>
               <a href={link2} target="_blank" rel="noreferrer">
-                <Box mx={"5"} my={"2"} fontSize={['xl', '2xl', '3xl', '4xl']}>
+                <Box mx={"5"} my={"2"} fontSize={["xl", "2xl", "3xl", "4xl"]}>
                   <FaEye />
                 </Box>
               </a>
@@ -61,7 +61,7 @@ const PortFolio = ({
           <Tooltip label="Source Code">
             <Text>
               <a href={link1} target="_blank" rel="noreferrer">
-                <Box mx={"5"} my={"2"} fontSize={['xl', '2xl', '3xl', '4xl']}>
+                <Box mx={"5"} my={"2"} fontSize={["xl", "2xl", "3xl", "4xl"]}>
                   <FaGithub />
                 </Box>
               </a>
@@ -70,11 +70,10 @@ const PortFolio = ({
         </Flex>
         <Box>
           <Box
-            h={["25vh"]}
+           
             color={darkMode ? "whitesmoke" : "black"}
             position={"sticky"}
             zIndex={"2"}
-            border="1px solid red"
           >
             <Box>
               <Heading
@@ -89,7 +88,7 @@ const PortFolio = ({
               </Heading>
             </Box>
             <Box>
-              <Text fontSize={['xs', 'sm', 'md', 'md']}> {description}</Text>
+              <Text fontSize={["xs", "sm", "md", "md"]}> {description}</Text>
             </Box>
             {/* <Box>
               <Text>
@@ -108,8 +107,12 @@ const PortFolio = ({
               </Text>
             </Box> */}
             <Box>
-              <Text>
-                <Code fontSize={['xs', 'sm', 'md', 'md']} fontWeight={"bold"} color={"green"}>
+              <Text fontSize={["xs", "sm", "md", "md"]}>
+                <Code
+                 
+                  fontWeight={"bold"}
+                  color={"green"}
+                >
                   Tech Stack:
                 </Code>{" "}
                 {techstack}
