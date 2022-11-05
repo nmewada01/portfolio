@@ -1,4 +1,3 @@
-import { useMediaQuery } from "@chakra-ui/react";
 import { useContext } from "react";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";

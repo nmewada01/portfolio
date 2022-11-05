@@ -19,23 +19,30 @@ const Intro = () => {
   const [isLargerThan] = useMediaQuery("(min-width: 489px)");
 
   return (
-    <Box
-      className="i"
+    <Flex
       id="intro"
+      h={"100vh"}
       lineHeight={"1rem"}
       flexDirection={isLargerThan ? "row" : "column"}
     >
-      <Box className="i-left">
-        <Box className="i-left-wrapper">
-          <Text className="i-intro" my={"5"}>
+      <Flex alignItems={"center"} alignContent={"center"} flex={"1"}>
+        <Flex
+          p="50px"
+          h="50%"
+          flexDirection={"column"}
+          justifyContent={"space-between"}
+        >
+          <Text fontSize={"30px"} fontWeight={"semibold"} my={"5"}>
             Hello, <br />
             <br />
             My name <br />
             <br />
             is
           </Text>
-          <Heading className={isLargerThan ? "i-name" : "typeWritertheme"}>
-            Naresh <span style={{ color: "#59b256" }}>Rajput</span>
+          <Heading className={isLargerThan ? "i-name" : "typewriter"}>
+            <Text className="type">
+              Naresh <span style={{ color: "#59b256" }}>Rajput</span>
+            </Text>
           </Heading>
           {/* {isLarger ? (
             <Box className="i-title">
@@ -48,13 +55,7 @@ const Intro = () => {
               </Box>
             </Box>
           ) : null} */}
-          <Box
-            display="flex"
-            gap="15px"
-            marginBottom={"1rem"}
-            // style={{ display: "flex", gap: "15px", marginBottom: "1rem" }}
-            my={"5"}
-          >
+          <Flex gap="15px" marginBottom={"1rem"} my={"5"}>
             <Tooltip label="My Github">
               <Box>
                 <a href="https://github.com/nmewada01" target="blank">
@@ -75,7 +76,7 @@ const Intro = () => {
                 </a>
               </Box>
             </Tooltip>
-          </Box>
+          </Flex>
 
           {/* --------------------------------------------------------------------------------------------- */}
           <Tooltip label={"Click To Download Resume"}>
@@ -102,13 +103,20 @@ const Intro = () => {
           {/* <p className="i-desc">
            
           </p> */}
-        </Box>
-      </Box>
+        </Flex>
+      </Flex>
       <Box className="i-right">
         <Box className="i-bg"></Box>
-        <Image src={profile} alt="Naresh Rajput" className="i-img" />
+        <Image
+          src={profile}
+          alt="Naresh Rajput"
+          width="100%"
+          height={["130%", "100%"]}
+          object-fit="cover"
+          position="absolute"
+        />
       </Box>
-    </Box>
+    </Flex>
   );
 };
 

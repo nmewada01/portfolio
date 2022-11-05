@@ -70,7 +70,6 @@ const PortFolio = ({
         </Flex>
         <Box>
           <Box
-           
             color={darkMode ? "whitesmoke" : "black"}
             position={"sticky"}
             zIndex={"2"}
@@ -108,11 +107,7 @@ const PortFolio = ({
             </Box> */}
             <Box>
               <Text fontSize={["xs", "sm", "md", "md"]}>
-                <Code
-                 
-                  fontWeight={"bold"}
-                  color={"green"}
-                >
+                <Code fontWeight={"bold"} color={"green"}>
                   Tech Stack:
                 </Code>{" "}
                 {techstack}
@@ -125,7 +120,7 @@ const PortFolio = ({
           mt={"2"}
           display="inline-block"
           overflow={"hidden"}
-          border="1px solid green"
+         
         >
           <Box>
             <Image
@@ -144,3 +139,4 @@ const PortFolio = ({
 };
 
 export default PortFolio;
+
