@@ -81,17 +81,17 @@ const Skill = () => {
           w="90%"
           m="auto"
           my={"7"}
-          fontSize={"xl"}
+          fontSize={["lg", "lg", "sm", "lg"]}
           fontWeight={"extrabold"}
           justifyContent={"space-around"}
-          flexDirection={isLargerThan ? "row" : "column"}
+          flexDirection={isSmallerThan ? "row" : "column"}
           justifyItems={"center"}
         >
           <Box transition="all 0.9s ease" _hover={hovering}>
             🎯 Punctuality
           </Box>
           <Box transition="all 0.9s ease" _hover={hovering}>
-            🎯 Hardworking
+            🎯 Time-Management
           </Box>
           <Box transition="all 0.9s ease" _hover={hovering}>
             🎯 Adaptability
@@ -100,7 +100,7 @@ const Skill = () => {
             🎯 Teamwork
           </Box>
           <Box transition="all 0.9s ease" _hover={hovering}>
-            🎯 self-Motivated
+            🎯 Collaborative
           </Box>
         </Flex>
         <Divider />
