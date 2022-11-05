@@ -6,11 +6,11 @@ const PortFolioList = () => {
   return (
     <Box id="portfoliolist" m="1rem">
       <Box>
-        <Heading width={"95%"} m="auto" >
+        <Heading width={"95%"} m="auto">
           My <span style={{ color: "#59b256" }}>Projects</span>
         </Heading>
       </Box>
-      <SimpleGrid columns={[1, 2, 2, 3]} width={"95%"} m="auto">
+      <SimpleGrid columns={[1, 1, 1, 2]} width={"95%"} m="auto">
         {products.length > 0 &&
           products.map((item) => (
             <div key={item.id}>
@@ -22,6 +22,8 @@ const PortFolioList = () => {
                 ProjectName={item.ProjectName}
                 description={item.des}
                 techstack={item.Tech}
+                feature={item.feature}
+                role={item.area}
               />
             </div>
           ))}

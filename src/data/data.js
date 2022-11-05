@@ -1,12 +1,14 @@
 export const products = [
   {
     id: 1,
-    img: "https://user-images.githubusercontent.com/101567054/200035129-35540c4e-063f-459b-9b6b-1efe04fde716.png",
+    img: "https://user-images.githubusercontent.com/101567054/200113912-870910e7-edc7-4c23-8570-a5b09618cd2e.png",
     link1: "https://github.com/nmewada01/e-commerce",
     link2: "https://nareshrajput-sports-site.vercel.app/",
     ProjectName: "Sports-K",
-    des: "Sports-K is a e-commerce website which offers sports based products like clothes and shoes.",
-    Tech: "React, Redux, Javascript, Chakra-UI",
+    area: "building a product page and buy functionality and footer, working on design of the website.",
+    feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page.",
+    des: "Sports-K is a e-commerce website which offers sports based products like clothes and shoes. It allows you to buy clothes and shoes online with payment gateway integration. ",
+    Tech: "React, Redux, Javascript, ChakraUI",
   },
   {
     id: 2,
@@ -14,7 +16,9 @@ export const products = [
     link1: "https://github.com/nmewada01/Tanner-Goods",
     link2: "https://naresh-rajput-tannergoods.vercel.app/",
     ProjectName: "Tanner Goods",
-    des: "Tanner Goods offers leather-based products such as wallets and bags etc.",
+    area: "building a product page and buy functionality and footer, working on design of the website.",
+    des: "Tanner Goods offers leather-based products such as wallets and bags etc. The company built on the idea that quality, longevity, and value are all interdependent. ",
+    feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
     Tech: "React, Redux, Html, CSS, Javascript",
   },
   {
@@ -23,7 +27,9 @@ export const products = [
     link1: "https://github.com/nmewada01/DeskTime",
     link2: "https://desktime-project-nmewada01.vercel.app/",
     ProjectName: "DeskTime Clone",
-    des: "Desktime is a desktop and mobile time tracking app for companies and freelancers",
+    area: "building a product page and buy functionality and footer, working on design of the website.",
+    des: "Desktime is a desktop and mobile time tracking app for companies and freelancers. DeskTime is a product designed to increase productivity in an open and empowering environment.",
+    feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
     Tech: "React, Html, CSS, Javascript",
   },
   {
@@ -32,7 +38,9 @@ export const products = [
     link1: "https://github.com/nmewada01/Bath-and-Body-Works",
     link2: "https://harshvyas2704.github.io/bath-and-body-works-2/",
     ProjectName: "Bath And Body Works clone",
-    des: "It is an American retail store chain that sells soaps, lotions fragrances, candles etc.",
+    area: "building a product page and buy functionality and footer, working on design of the website.",
+    des: "It is an American retail store chain that sells soaps, lotions fragrances, candles etc. A collaborative project of 6 member team who clones this website.",
+    feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
     Tech: "Html, CSS, Javascript",
   },
   {
@@ -41,7 +49,9 @@ export const products = [
     link1: "https://github.com/nmewada01/BangGood-Project",
     link2: "https://euphonious-cheesecake-116736.netlify.app/",
     ProjectName: "BangGood clone",
-    des: "This Website allows people to buy and sell physical goods, and services",
+    area: "building a product page and buy functionality and footer, working on design of the website.",
+    des: "This Website allows people to buy and sell physical goods, and services. A collaborative project, built-in 5 days by a team of 5 developers",
+    feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
     Tech: "Html, CSS, Javascript",
   },
 ];

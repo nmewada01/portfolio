@@ -1,4 +1,4 @@
-.p {
+/* .p {
   width: 95%;
   height: 50vh;
   margin: 20px 10px;
@@ -31,9 +31,9 @@
 
 .p:hover .p-img {
   transform:translateX(-50%)
-}
+} */
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .p {
     width: 80%;
     height: 30vh;
@@ -50,8 +50,8 @@
     font-weight: bold;
     margin-top: 1rem;
   }
-}
-.deploy_link {
+} */
+/* .deploy_link {
   display: block;
   font-weight: bold;
   width: 70px;
@@ -91,4 +91,4 @@
 
 .deploy_link:hover:after {
   width: 100%;
-}
+} */

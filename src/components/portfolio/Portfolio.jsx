@@ -2,7 +2,9 @@ import {
   Box,
   Code,
   Flex,
+  Heading,
   Image,
+  Stack,
   Text,
   Tooltip,
   useMediaQuery,
@@ -19,6 +21,8 @@ const PortFolio = ({
   description,
   techstack,
   id,
+  feature,
+  role,
 }) => {
   const [isLargerThan] = useMediaQuery("(min-width: 769px)");
   const theme = useContext(ThemeContext);
@@ -26,10 +30,11 @@ const PortFolio = ({
 
   return (
     <>
-      <Box
+      <Stack
         key={id}
-        w={isLargerThan ? "85%" : "95%"}
-        h={"60vh"}
+        align='stretch'
+        w={isLargerThan ? "85%" : "100%"}
+        h={["60vh", "60vh", "70vh", "90vh"]}
         borderRadius="10px 10px 0px 0px"
         overflow={"hidden"}
         my={"20px"}
@@ -47,7 +52,7 @@ const PortFolio = ({
           <Tooltip label="Deploy">
             <Text>
               <a href={link2} target="_blank" rel="noreferrer">
-                <Box mx={"5"} my={"2"} fontSize="2rem">
+                <Box mx={"5"} my={"2"} fontSize={['xl', '2xl', '3xl', '4xl']}>
                   <FaEye />
                 </Box>
               </a>
@@ -56,51 +61,81 @@ const PortFolio = ({
           <Tooltip label="Source Code">
             <Text>
               <a href={link1} target="_blank" rel="noreferrer">
-                <Box mx={"5"} my={"2"} fontSize="2rem">
+                <Box mx={"5"} my={"2"} fontSize={['xl', '2xl', '3xl', '4xl']}>
                   <FaGithub />
                 </Box>
               </a>
             </Text>
           </Tooltip>
         </Flex>
-        <Box
-          min-h={isLargerThan ? "10vh" : "15vh"}
-          color={darkMode ? "whitesmoke" : "black"}
-          position={"sticky"}
-          zIndex={"2"}
-        >
-          <Box>
-            <Text
-              color={"#59b256"}
-              fontSize={"lg"}
-              fontWeight={"semibold"}
-              textDecoration={"underline"}
-              textAlign={"center"}
-              my={"1"}
-            >
-              {ProjectName}
-            </Text>
-          </Box>
-          <Box>{description}</Box>
-          <Box>
-            <Text>
-              <Code color={"green"}>Tech Stack:</Code> {techstack}
-            </Text>
+        <Box>
+          <Box
+            h={["25vh"]}
+            color={darkMode ? "whitesmoke" : "black"}
+            position={"sticky"}
+            zIndex={"2"}
+            border="1px solid red"
+          >
+            <Box>
+              <Heading
+                color={"#59b256"}
+                fontSize={"2xl"}
+                fontWeight={"semibold"}
+                textDecoration={"underline"}
+                textAlign={"center"}
+                my={"1"}
+              >
+                {ProjectName}
+              </Heading>
+            </Box>
+            <Box>
+              <Text fontSize={['xs', 'sm', 'md', 'md']}> {description}</Text>
+            </Box>
+            {/* <Box>
+              <Text>
+                <Code fontSize={"lg"} fontWeight={"bold"} color={"green"}>
+                  Feature:
+                </Code>
+                {feature}
+              </Text>
+            </Box>
+            <Box>
+              <Text>
+                <Code fontSize={"lg"} fontWeight={"bold"} color={"green"}>
+                  Role:
+                </Code>
+                {role}
+              </Text>
+            </Box> */}
+            <Box>
+              <Text>
+                <Code fontSize={['xs', 'sm', 'md', 'md']} fontWeight={"bold"} color={"green"}>
+                  Tech Stack:
+                </Code>{" "}
+                {techstack}
+              </Text>
+            </Box>
           </Box>
         </Box>
 
-        <Box mt={"2"} display="inline-block" overflow={"hidden"}>
-          <Image
-            transition="transform .4s"
-            display="block"
-            m="auto"
-            w={"100%"}
-            _hover={{ transform: "scale(1.2)", transformOrigin: "50% 50%" }}
-            src={img}
-            alt=""
-          />
+        <Box
+          mt={"2"}
+          display="inline-block"
+          overflow={"hidden"}
+          border="1px solid green"
+        >
+          <Box>
+            <Image
+              transition="transform .4s"
+              display="block"
+              m="auto"
+              _hover={{ transform: "scale(1.2)", transformOrigin: "50% 50%" }}
+              src={img}
+              alt=""
+            />
+          </Box>
         </Box>
-      </Box>
+      </Stack>
     </>
   );
 };
