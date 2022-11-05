@@ -8,7 +8,7 @@ export const products = [
     area: "building a product page and buy functionality and footer, working on design of the website.",
     feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page.",
     des: "Sports-K is a e-commerce website which offers sports based products like clothes and shoes. It allows you to buy clothes and shoes online with payment gateway integration. ",
-    Tech: "React, Redux, Javascript, ChakraUI",
+    Tech: "React, Redux, JavaScript, ChakraUI",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const products = [
     area: "building a product page and buy functionality and footer, working on design of the website.",
     des: "Tanner Goods offers leather-based products such as wallets and bags etc. The company built on the idea that quality, longevity, and value are all interdependent. ",
     feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
-    Tech: "React, Redux, Html, CSS, Javascript",
+    Tech: "React, Redux, Html, CSS, JavaScript",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const products = [
     area: "building a product page and buy functionality and footer, working on design of the website.",
     des: "Desktime is a desktop and mobile time tracking app for companies and freelancers. DeskTime is a product designed to increase productivity in an open and empowering environment.",
     feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
-    Tech: "React, Html, CSS, Javascript",
+    Tech: "React, Html, CSS, JavaScript",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const products = [
     area: "building a product page and buy functionality and footer, working on design of the website.",
     des: "It is an American retail store chain that sells soaps, lotions fragrances, candles etc. A collaborative project of 6 member team who clones this website.",
     feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
-    Tech: "Html, CSS, Javascript",
+    Tech: "Html, CSS, JavaScript",
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ export const products = [
     area: "building a product page and buy functionality and footer, working on design of the website.",
     des: "This Website allows people to buy and sell physical goods, and services. A collaborative project, built-in 5 days by a team of 5 developers",
     feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
-    Tech: "Html, CSS, Javascript",
+    Tech: "Html, CSS, JavaScript",
   },
 ];
 
@@ -66,7 +66,7 @@ export const techStack = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
   },
   {
-    name: "Javascript",
+    name: "JavaScript",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   },
   {
