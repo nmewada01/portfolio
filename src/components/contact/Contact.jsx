@@ -53,28 +53,42 @@ const Contact = () => {
 
   return (
     <>
-      <Box className="c" id="contact" my={"2rem"}>
+      <Box
+        className="c"
+        id="contact"
+        my={"2rem"}
+        fontSize={["xs", "sm", "md", "md"]}
+      >
         <Box className="c-bg"></Box>
         <Box className="c-wrapper">
           <Box className="c-left">
-            <Heading className="c-title" style={{ color: "#59b256" }}>
+            <Heading
+              fontSize={["2xl", "3xl", "4xl", "5xl"]}
+              style={{ color: "#59b256" }}
+            >
               Contacts
             </Heading>
             <Box className="c-info">
-              <Text>Mobile No.</Text>
+              <Text borderBottom={"2px solid green"} display={"inline-block"}>
+                Mobile No.
+              </Text>
               <Box className="c-info-item">
                 <FcPhone size="35px" />
                 &nbsp;&nbsp;&nbsp;+91 9617732664
               </Box>
-              <Text>Mail Me.</Text>
+              <Text borderBottom={"2px solid green"} display={"inline-block"}>
+                Mail Me.
+              </Text>
               <Box className="c-info-item">
                 <AiTwotoneMail size="35px" />
                 &nbsp;&nbsp;&nbsp; nareshmewada014@gmail.com
               </Box>
-              <Text>Address.</Text>
+              <Text borderBottom={"2px solid green"} display={"inline-block"}>
+                Address.
+              </Text>
               <Box className="c-info-item">
                 <FcHome size="35px" />
-                &nbsp;&nbsp;&nbsp; Sehore,Madhya Pradesh,India
+                &nbsp;&nbsp;&nbsp; Sehore,MP,India
               </Box>
               <Box style={{ display: "flex", gap: "15px" }}>
                 <Text>connect with me:</Text>
@@ -106,7 +120,7 @@ const Contact = () => {
           </Box>
           {isLargerThan ? null : <Divider my={"5"} />}
           <Box className="c-right" lineHeight={"2rem"}>
-            <p className="c-desc">
+            <Text className="c-desc">
               <Button
                 color={darkMode ? "white" : "green"}
                 bg={darkMode ? "#59b256" : "white"}
@@ -116,16 +130,18 @@ const Contact = () => {
               </Button>
               <br />
               Hello! I am a Full Stack Web Developer. Seeking for new
-              opportunity. I know html,css,javascript,react language. <br />
-              For hire me contact me via email.
+              opportunity in software industry.
+              <br />
+              contact me via email.
               <br />
               Thank YOu
-            </p>
+            </Text>
 
             {/* ---------------------------------------------------------------------------------------------------------------------------- */}
 
             <form ref={form} onSubmit={sendEmail} className={"form"}>
               <Input
+                fontSize={["xs", "sm", "md", "md"]}
                 style={{ backgroundColor: darkMode && "#333" }}
                 type="text"
                 name="user_name"
@@ -133,27 +149,32 @@ const Contact = () => {
               />
 
               <Input
+                fontSize={["xs", "sm", "md", "md"]}
                 style={{ backgroundColor: darkMode && "#333" }}
                 type="email"
                 name="user_email"
                 placeholder="Your Email"
               />
               <Textarea
+                fontSize={["xs", "sm", "md", "md"]}
                 style={{ backgroundColor: darkMode && "#333" }}
                 name="message"
                 placeholder="Write Message"
               />
-              <Input
-                type="submit"
-                value="Send"
-                bg="#59b256"
-                w="50%"
-                color={"whitesmoke"}
-                _hover={{
-                  color: "green",
-                  bg: "none",
-                }}
-              ></Input>
+              <Tooltip label="click to send message">
+                <Input
+                  fontSize={["xs", "sm", "md", "md"]}
+                  type="submit"
+                  value="Send"
+                  bg="#59b256"
+                  w="50%"
+                  color={"whitesmoke"}
+                  _hover={{
+                    color: "green",
+                    bg: "none",
+                  }}
+                ></Input>
+              </Tooltip>
               {done && (
                 <Image src={ThankYou} w="100%" h="25vh" alt="thankyou" />
               )}
