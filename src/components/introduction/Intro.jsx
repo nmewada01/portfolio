@@ -21,7 +21,7 @@ const Intro = () => {
   return (
     <Flex
       id="intro"
-      h={"100vh"}
+      h={"110vh"}
       lineHeight={"1rem"}
       flexDirection={isLargerThan ? "row" : "column"}
     >
@@ -105,7 +105,7 @@ const Intro = () => {
           </p> */}
         </Flex>
       </Flex>
-      <Box className="i-right">
+      <Box className="i-right" pt={"5"}>
         <Box className="i-bg"></Box>
         <Image
           src={profile}

@@ -131,7 +131,7 @@
   margin-top: 3rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 489px) {
   .i-left-wrapper {
     padding: 10px;
     align-items: center;
