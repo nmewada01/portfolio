@@ -21,9 +21,12 @@ const Intro = () => {
   return (
     <Flex
       id="intro"
-      h={"110vh"}
       lineHeight={"1rem"}
       flexDirection={isLargerThan ? "row" : "column"}
+      w={["100%","100%","100%","100%"]}
+      height={["100vh","80vh","80vh","100vh"]}
+      
+      
     >
       <Flex alignItems={"center"} alignContent={"center"} flex={"1"}>
         <Flex
@@ -32,14 +35,14 @@ const Intro = () => {
           flexDirection={"column"}
           justifyContent={"space-between"}
         >
-          <Text fontSize={"30px"} fontWeight={"semibold"} my={"5"}>
+          <Text fontSize={['lg','lg','xl','3xl']} fontWeight={"semibold"} my={"5"}>
             Hello, <br />
             <br />
             My name <br />
             <br />
             is
           </Text>
-          <Heading className={isLargerThan ? "i-name" : "typewriter"}>
+          <Heading fontSize={['2xl','2xl','2xl','5xl']}>
             <Text className="type">
               Naresh <span style={{ color: "#59b256" }}>Rajput</span>
             </Text>
@@ -108,6 +111,7 @@ const Intro = () => {
       <Box className="i-right" pt={"5"}>
         <Box className="i-bg"></Box>
         <Image
+      
           src={profile}
           alt="Naresh Rajput"
           width="100%"

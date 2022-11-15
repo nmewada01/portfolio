@@ -1,6 +1,5 @@
 import "./about.css";
 import React from "../../img/react.svg";
-import myImage from "../../img/png.png";
 import { Box, Flex, Heading, Text, useMediaQuery } from "@chakra-ui/react";
 
 const About = () => {
