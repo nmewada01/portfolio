@@ -88,7 +88,6 @@ const Skill = () => {
           w="90%"
           m="auto"
           my={"7"}
-          border={"1px solid red"}
           p={"1rem"}
           mx={"2"}
           fontSize={["lg", "lg", "sm", "md"]}
