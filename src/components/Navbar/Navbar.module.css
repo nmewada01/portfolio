@@ -1,4 +1,4 @@
-.root {
+/* .root {
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: center;
@@ -40,7 +40,7 @@ a {
   align-items: center;
   justify-content: center;
   height: 45px;
-}
+} */
 /* .navlogo:hover {
     /* border-bottom: 5px solid rgb(0, 49, 64); */
 /* }  */
@@ -54,14 +54,14 @@ a {
 /* .navlogo:active {
     border-bottom: 5px solid rgb(0, 49, 64);
   } */
-.logoimg {
+/* .logoimg {
   height: 60px;
   border-radius: 50%;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   margin-top: 25px;
   margin-left: 100px;
-}
-@media only screen and (max-width: 1024px) {
+} */
+/* @media only screen and (max-width: 1024px) {
   .root {
     grid-template-columns: 50% 50%;
     font-size: 18px;
@@ -90,9 +90,9 @@ a {
   .active > .navlogo {
     border-bottom: none;
   }
-}
+} */
 
-@media only screen and (max-width: 769px) {
+/* @media only screen and (max-width: 769px) {
   .root {
     grid-template-columns: repeat(1fr, 5);
     font-size: 15px;
@@ -121,8 +121,8 @@ a {
   .active > .navlogo {
     border-bottom: none;
   }
-}
-
+} */
+/* 
 @media only screen and (max-width: 480px) {
   .root {
     grid-template-columns: 75% 80%;
@@ -152,4 +152,4 @@ a {
   .active > .navlogo {
     border-bottom: none;
   }
-}
+} */

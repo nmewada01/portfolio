@@ -1,7 +1,7 @@
 import "./about.css";
 import React from "../../img/react.svg";
 import { Box, Flex, Heading, Text, useMediaQuery } from "@chakra-ui/react";
-
+import Typewriter from "typewriter-effect";
 const About = () => {
   const [isLargerThan] = useMediaQuery("(min-width: 480px)");
   return (
@@ -9,21 +9,40 @@ const About = () => {
       align={"center"}
       m={"auto"}
       w={"95%"}
-      h={["50vh", "100vh"]}
-      mt={!isLargerThan && "30%"}
+      h={["50vh", "70vh"]}
+      mt={!isLargerThan && "55%"}
       id="about"
     >
-      {isLargerThan ? (
+      {/* {isLargerThan ? (
         <Box className="a-left">
           <Box className="a-card bg"></Box>
           <Box className="a-card"></Box>
         </Box>
-      ) : null}
-      <Box flex={"1"}>
-        <Heading fontWeight={"semibold"} px={"2"}>
+      ) : null} */}
+      <Box px={["1rem", "3rem", "3rem", "5rem"]}>
+        <Heading fontWeight={"semibold"} textAlign={"center"} my={"5"}>
           <span style={{ color: "#59b256", fontWeight: "bold" }}>About</span> Me
         </Heading>
-        <Text my={"5"} fontSize={["xs", "sm", "md", "md"]} px={"2"}>
+        <Text my={"5"} fontSize={["xs", "sm", "md", "lg"]} px={"2"}>
+          <Text fontWeight={"semibold"}>Hello , I am Naresh Rajput</Text>
+          <Box color={'#59b256'} fontWeight={'semibold'}>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("Full Stack Web Developer")
+                  .callFunction(() => {
+                    console.log("String typed out!");
+                  })
+                  .pauseFor(2500)
+                  .deleteAll()
+                  .typeString("MERN Developer")
+                  .callFunction(() => {
+                    console.log("All strings were deleted");
+                  })
+                  .start();
+              }}
+            />
+          </Box>
           I'm a Bsc Computer Science graduate and A MERN developer having
           1100+hrs of hands on experience in web development and always
           energetic and eager to learn new things,Learning new things is for me

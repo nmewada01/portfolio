@@ -16,12 +16,12 @@ const Skill = () => {
   const [isLargerThan] = useMediaQuery("(min-width: 426px)");
   const [isSmallerThan] = useMediaQuery("(min-width: 769px)");
 
-  const hovering = {
-    transform: "scale(1.1)",
-    boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
-    bg: "skyblue",
-    px: "0.5rem",
-  };
+  // const hovering = {
+  //   transform: "scale(1.1)",
+  //   boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+  //   bg: "skyblue",
+  //   px: "0.5rem",
+  // };
   return (
     <>
       <Box id="skill" min-h={"100vh"} m="auto" w={"95%"} my={"7rem"}>
@@ -36,6 +36,7 @@ const Skill = () => {
           fontWeight={"semibold"}
           textAlign={"center"}
           textDecoration={"underline"}
+          my={"5"}
         >
           Tech <span style={{ color: "#59b256" }}>Skills</span>
         </Text>
@@ -45,6 +46,8 @@ const Skill = () => {
               my={"5"}
               key={index}
               transition={"all 0.9s ease"}
+              boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+              mx={["1", "2", "3", "5"]}
               _hover={{
                 transform: "scale(1.2)",
                 boxShadow:
@@ -61,7 +64,11 @@ const Skill = () => {
                 mr={"auto"}
                 display={"block"}
               />
-              <Text fontSize={"lg"} align="center" fontWeight={"semibold"}>
+              <Text
+                fontSize={["xs", "sm", "md", "lg"]}
+                align="center"
+                fontWeight={"semibold"}
+              >
                 {el.name}
               </Text>
             </Box>
@@ -81,27 +88,20 @@ const Skill = () => {
           w="90%"
           m="auto"
           my={"7"}
-          fontSize={["lg", "lg", "sm", "lg"]}
+          border={"1px solid red"}
+          p={"1rem"}
+          mx={"2"}
+          fontSize={["lg", "lg", "sm", "md"]}
           fontWeight={"extrabold"}
           justifyContent={"space-around"}
           flexDirection={isSmallerThan ? "row" : "column"}
           justifyItems={"center"}
         >
-          <Box transition="all 0.9s ease" _hover={hovering}>
-            🎯 Punctuality
-          </Box>
-          <Box transition="all 0.9s ease" _hover={hovering}>
-            🎯 Time-Management
-          </Box>
-          <Box transition="all 0.9s ease" _hover={hovering}>
-            🎯 Adaptability
-          </Box>
-          <Box transition="all 0.9s ease" _hover={hovering}>
-            🎯 Teamwork
-          </Box>
-          <Box transition="all 0.9s ease" _hover={hovering}>
-            🎯 Collaborative
-          </Box>
+          <Box>🎯 Punctuality</Box>
+          <Box>🎯 Time-Management</Box>
+          <Box>🎯 Adaptability</Box>
+          <Box>🎯 Teamwork</Box>
+          <Box>🎯 Collaborative</Box>
         </Flex>
         <Divider />
         <GitHubGreen />

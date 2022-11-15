@@ -6,7 +6,7 @@ const PortFolioList = () => {
   return (
     <Box id="portfoliolist" m="1rem">
       <Box>
-        <Heading width={"95%"} m="auto">
+        <Heading width={"95%"} m="auto" textAlign={"center"}>
           My <span style={{ color: "#59b256" }}>Projects</span>
         </Heading>
       </Box>
