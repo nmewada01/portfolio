@@ -34,7 +34,7 @@ export const products = [
   },
   {
     id: 4,
-    img: "https://user-images.githubusercontent.com/101567054/200037266-5c72b8f2-1053-43bc-8bac-6f248c6d205f.png",
+    img: "https://user-images.githubusercontent.com/101567054/202100373-32674436-cd3e-49b3-a2eb-c32923755e3a.png",
     link1: "https://github.com/nmewada01/Bath-and-Body-Works",
     link2: "https://harshvyas2704.github.io/bath-and-body-works-2/",
     ProjectName: "Bath And Body Works clone",
