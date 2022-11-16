@@ -100,8 +100,9 @@ const Intro = () => {
       </Flex>
       <Box className="i-right" pt={isLargerThan ? "5" : null} mx={"5"}>
         <Box
-          className="i-bg"
-          w={["100%", "110%", "110%", "110%"]}
+          position={"absolute"}
+          bgGradient={"linear(to-r, #59b256, #59b256)"}
+          w={["100%", "100%", "100%", "100%"]}
           h={["45vh", "65vh", "75vh", "100%"]}
         ></Box>
         <Image
