@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6ba4881c.css",
-    "main.js": "/portfolio/static/js/main.484e80c8.js",
+    "main.css": "/portfolio/static/css/main.2a46a97e.css",
+    "main.js": "/portfolio/static/js/main.ba21d3c5.js",
     "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/png.png": "/portfolio/static/media/png.46749333991277c831bd.png",
     "static/media/Naresh_Rajput_Resume.pdf": "/portfolio/static/media/Naresh_Rajput_Resume.854f7ab46953b99a1724.pdf",
@@ -11,12 +11,12 @@
     "index.html": "/portfolio/index.html",
     "static/media/sun.svg": "/portfolio/static/media/sun.f8653db37885713856e4d7c2a9a5e8e2.svg",
     "static/media/moon.svg": "/portfolio/static/media/moon.3110b6b43dc0da840d299ca2c33e13bc.svg",
-    "main.6ba4881c.css.map": "/portfolio/static/css/main.6ba4881c.css.map",
-    "main.484e80c8.js.map": "/portfolio/static/js/main.484e80c8.js.map",
+    "main.2a46a97e.css.map": "/portfolio/static/css/main.2a46a97e.css.map",
+    "main.ba21d3c5.js.map": "/portfolio/static/js/main.ba21d3c5.js.map",
     "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ba4881c.css",
-    "static/js/main.484e80c8.js"
+    "static/css/main.2a46a97e.css",
+    "static/js/main.ba21d3c5.js"
   ]
 }
