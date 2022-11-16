@@ -32,19 +32,9 @@ export const products = [
     feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
     Tech: "React, JavaScript, ChakraUI",
   },
+
   {
     id: 4,
-    img: "https://user-images.githubusercontent.com/101567054/202100373-32674436-cd3e-49b3-a2eb-c32923755e3a.png",
-    link1: "https://github.com/nmewada01/Bath-and-Body-Works",
-    link2: "https://harshvyas2704.github.io/bath-and-body-works-2/",
-    ProjectName: "Bath And Body Works clone",
-    area: "building a product page and buy functionality and footer, working on design of the website.",
-    des: "It is an American retail store chain that sells soaps, lotions fragrances, candles etc. A collaborative project of 6 member team who clones this website.",
-    feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
-    Tech: "Html, CSS, JavaScript",
-  },
-  {
-    id: 5,
     img: "https://user-images.githubusercontent.com/101567054/200036520-c3b4cac5-b9cf-4255-b555-58bf4d8a8d40.png",
     link1: "https://github.com/nmewada01/BangGood-Project",
     link2: "https://euphonious-cheesecake-116736.netlify.app/",
@@ -124,3 +114,18 @@ export const techStack = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
   },
 ];
+
+
+
+
+// {
+//   id: 4,
+//   img: "https://user-images.githubusercontent.com/101567054/202100373-32674436-cd3e-49b3-a2eb-c32923755e3a.png",
+//   link1: "https://github.com/nmewada01/Bath-and-Body-Works",
+//   link2: "https://harshvyas2704.github.io/bath-and-body-works-2/",
+//   ProjectName: "Bath And Body Works clone",
+//   area: "building a product page and buy functionality and footer, working on design of the website.",
+//   des: "It is an American retail store chain that sells soaps, lotions fragrances, candles etc. A collaborative project of 6 member team who clones this website.",
+//   feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
+//   Tech: "Html, CSS, JavaScript",
+// },

@@ -19,7 +19,7 @@ const App = () => {
       }}
     >
       <Toggle />
-      <Navbar/>
+      <Navbar />
       <Intro /><br />
       <About />
       <Skill />

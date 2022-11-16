@@ -1,7 +1,7 @@
 import "./portfoliolist.css";
 import { products } from "../../data/data";
 import PortFolio from "../portfolio/Portfolio";
-import { Box, Heading, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
 const PortFolioList = () => {
   return (
     <Box id="portfoliolist" m="1rem">

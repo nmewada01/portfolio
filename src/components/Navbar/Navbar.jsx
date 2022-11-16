@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <Box>
       {isLargerThan ? (
-        <Flex mx={"5"} bg={"#f1f1f2"} position={"fixed"}>
+        <Flex mx={"5"} bg={"#f1f1f2"} position={"fixed"} zIndex={"99"} px={"5"}>
           <Flex
             fontSize={"lg"}
             gap={"14px"}

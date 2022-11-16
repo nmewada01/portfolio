@@ -13,7 +13,7 @@ import { techStack } from "../../data/data";
 import GitHubGreen from "../GitHub/GitHubGreen";
 import "./Skill.css";
 const Skill = () => {
-  const [isLargerThan] = useMediaQuery("(min-width: 426px)");
+  // const [isLargerThan] = useMediaQuery("(min-width: 426px)");
   const [isSmallerThan] = useMediaQuery("(min-width: 769px)");
 
   // const hovering = {
@@ -26,7 +26,7 @@ const Skill = () => {
     <>
       <Box id="skill" min-h={"100vh"} m="auto" w={"95%"} my={"7rem"}>
         <Box mx={"4"} my={"4"}>
-          <Heading textAlign={isSmallerThan ? null : "center"}>
+          <Heading textAlign={"center"}>
             Ski<span style={{ color: "#59b256" }}>lls</span>
           </Heading>
         </Box>
