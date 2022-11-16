@@ -40,6 +40,7 @@ const PortFolio = ({
         my={"20px"}
         mx={"10px"}
         p={"2"}
+        border="1px solid skyblue"
         _hover={{ border: "2px solid #59b256" }}
       >
         <Flex
@@ -115,7 +116,12 @@ const PortFolio = ({
           </Box>
         </Box>
 
-        <Box mt={"2"} display="inline-block" overflow={"hidden"}>
+        <Box
+          mt={"2"}
+          display="inline-block"
+          overflow={"hidden"}
+         
+        >
           <Box>
             <Image
               transition="transform .4s"
@@ -133,3 +139,4 @@ const PortFolio = ({
 };
 
 export default PortFolio;
+
