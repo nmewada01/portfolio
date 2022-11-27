@@ -12,6 +12,7 @@ import { Link } from "react-scroll";
 import styles from "./Navbar.module.css";
 import { Tooltip } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
+import { useContext } from "react";
 import {
   Drawer,
   DrawerBody,
@@ -21,17 +22,26 @@ import {
   DrawerCloseButton,
 } from "@chakra-ui/react";
 import pro from "../../img/png.png";
+import { ThemeContext } from "../../context/context";
 const Navbar = () => {
   const [isLargerThan] = useMediaQuery("(min-width: 769px)");
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <Box>
       {isLargerThan ? (
-        <Flex mx={"5"} bg={"#f1f1f2"} position={"fixed"} zIndex={"99"} px={"5"}>
+        <Flex
+          mx={"5"}
+          bg={darkMode ? "#2a3132" : "#f1f1f2"}
+          position={"fixed"}
+          zIndex={"99"}
+          px={"5"}
+        >
           <Flex
             fontSize={"lg"}
             gap={"14px"}
             my={"2"}
-            color={" #59b256"}
+            color={darkMode ? "#f1f2f3" : "#59b256"}
             fontWeight={"semibold"}
           >
             <Link
