@@ -60,69 +60,69 @@ export const products = [
 export const techStack = [
   {
     name: "HTML",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    link: "https://user-images.githubusercontent.com/101567054/205489730-71777440-98f7-4a2a-91c1-4ceb2a3977bd.svg",
   },
   {
     name: "CSS",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
+    link: "https://user-images.githubusercontent.com/101567054/205489733-496bc05f-ed2f-4c31-835c-43c0993a7d16.svg",
   },
   {
     name: "JavaScript",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    link: "https://user-images.githubusercontent.com/101567054/205489735-d9aee7ca-5968-4161-9f2b-20b18999c84f.svg",
   },
   {
     name: "React",
-    link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+    link: "https://user-images.githubusercontent.com/101567054/205489113-5b75185c-931f-4545-94cc-93479919a87a.svg",
   },
   {
     name: "Redux",
-    link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+    link: "https://user-images.githubusercontent.com/101567054/205489134-92b63f1e-3c5c-4a42-936e-909ff391fbaa.svg",
   },
   {
     name: "BootStrap",
-    link: "https://static.cdnlogo.com/logos/b/74/bootstrap-5.svg",
+    link: "https://user-images.githubusercontent.com/101567054/205489755-b7313f77-3d94-421c-b729-ef2d6b2b17b9.svg",
   },
   {
     name: "Chakra UI",
-    link: "https://bestofjs.org/logos/chakra-ui.svg",
+    link: "https://user-images.githubusercontent.com/101567054/205489711-fdc349f4-c0a2-4c8a-8bc9-d562e4274403.svg",
   },
   {
     name: "NodeJS",
-    link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+    link: "https://user-images.githubusercontent.com/101567054/205489659-f894104c-dd01-49e6-9994-a43756e97adb.svg",
   },
   {
     name: "Express",
-    link: "https://www.pngfind.com/pngs/m/136-1363736_express-js-icon-png-transparent-png.png",
+    link: "https://user-images.githubusercontent.com/101567054/205489710-242d40b0-7a2e-45c1-a253-f77c47b1ebb6.svg",
   },
   {
     name: "MongoDB",
-    link: "https://w7.pngwing.com/pngs/63/19/png-transparent-mongodb-database-nosql-postgresql-mongo-text-logo-business-thumbnail.png",
+    link: "https://user-images.githubusercontent.com/101567054/205489664-8498777d-883c-4c4e-8871-80cbc1f7b844.svg",
   },
   {
     name: "NPM",
-    link: "https://static.cdnlogo.com/logos/n/68/npm.svg",
+    link: "https://user-images.githubusercontent.com/101567054/205489759-bdf4b523-9d31-46d4-9010-c94ce5128331.svg",
   },
   {
     name: "Git",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
+    link: "https://user-images.githubusercontent.com/101567054/205489787-6baf5c6e-63e8-4c79-bc95-d250bde35ea2.svg",
   },
   {
     name: "Postman",
-    link: "https://ships-portfolio.netlify.app/images/postman.png",
+    link: "https://user-images.githubusercontent.com/101567054/205489821-68d634ae-cd79-436c-b6ac-62b9263682f4.svg",
   },
 
   {
     name: "Heroku",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg",
+    link: "https://user-images.githubusercontent.com/101567054/205489815-65bc70f7-2362-4cb3-b7ce-8a8be2a935dd.svg",
   },
   {
     name: "Github",
-    link: "https://static.cdnlogo.com/logos/g/69/github-icon.svg",
+    link: "https://user-images.githubusercontent.com/101567054/205489791-035de8a5-0c0f-455f-b2ef-c1aa311f9ea3.svg",
   },
 
   {
     name: "VS Code",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+    link: "https://user-images.githubusercontent.com/101567054/205489818-2f35837b-2168-4341-a579-b87b09718925.svg",
   },
 ];
 
