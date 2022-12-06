@@ -141,6 +141,7 @@ const Contact = () => {
 
             <form ref={form} onSubmit={sendEmail} className={"form"}>
               <Input
+                required
                 fontSize={["xs", "sm", "md", "md"]}
                 style={{ backgroundColor: darkMode && "#333" }}
                 type="text"
@@ -149,6 +150,7 @@ const Contact = () => {
               />
 
               <Input
+                required
                 fontSize={["xs", "sm", "md", "md"]}
                 style={{ backgroundColor: darkMode && "#333" }}
                 type="email"
@@ -156,6 +158,7 @@ const Contact = () => {
                 placeholder="Your Email"
               />
               <Textarea
+                required
                 fontSize={["xs", "sm", "md", "md"]}
                 style={{ backgroundColor: darkMode && "#333" }}
                 name="message"
