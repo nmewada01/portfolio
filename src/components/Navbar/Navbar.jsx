@@ -132,7 +132,7 @@ const Navbar = () => {
           </Flex>
         </Flex>
       ) : (
-        <DrawerExample />
+        <DrawerExample darkMode={darkMode} />
       )}
     </Box>
   );
@@ -140,7 +140,7 @@ const Navbar = () => {
 
 export default Navbar;
 
-export function DrawerExample() {
+export function DrawerExample({ darkMode }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
 
@@ -152,9 +152,9 @@ export function DrawerExample() {
         onClick={onOpen}
         mx={"5"}
         my={"2"}
-        color={"#59b256"}
+        color={darkMode ? "white" : "#59b256"}
         fontSize={"lg"}
-        bg={"#f1f1f2"}
+        bg={darkMode && "#2a3132"}
         position={"fixed"}
         zIndex={"99"}
       >
