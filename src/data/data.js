@@ -48,7 +48,7 @@ export const products = [
     id: 4,
     img: "https://user-images.githubusercontent.com/101567054/200036520-c3b4cac5-b9cf-4255-b555-58bf4d8a8d40.png",
     link1: "https://github.com/nmewada01/BangGood-Project",
-    link2: "https://euphonious-cheesecake-116736.netlify.app/",
+    link2: "https://delicate-gecko-7b3743.netlify.app/",
     ProjectName: "BangGood clone",
     area: "building a product page and buy functionality and footer, working on design of the website.",
     des: "This Website allows people to buy and sell physical goods, and services. A collaborative project, built-in 5 days by a team of 5 developers",
