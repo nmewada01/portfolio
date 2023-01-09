@@ -87,7 +87,9 @@ const PortFolio = ({
               </Heading>
             </Box>
             <Box>
-              <Text fontSize={["xs", "sm", "md", "md"]}> {description}</Text>
+              <Text fontSize={["xs", "sm", "md", "md"]} textAlign={"justify"}>
+                {description}
+              </Text>
             </Box>
             {/* <Box>
               <Text>
@@ -116,12 +118,7 @@ const PortFolio = ({
           </Box>
         </Box>
 
-        <Box
-          mt={"2"}
-          display="inline-block"
-          overflow={"hidden"}
-         
-        >
+        <Box mt={"2"} display="inline-block" overflow={"hidden"}>
           <Box>
             <Image
               transition="transform .4s"
@@ -139,4 +136,3 @@ const PortFolio = ({
 };
 
 export default PortFolio;
-

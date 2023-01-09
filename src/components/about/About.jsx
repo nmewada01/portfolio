@@ -23,23 +23,19 @@ const About = () => {
         <Heading fontWeight={"semibold"} textAlign={"center"} my={"5"}>
           <span style={{ color: "#59b256", fontWeight: "bold" }}>About</span> Me
         </Heading>
-        <Text my={"5"} fontSize={["xs", "sm", "md", "lg"]} px={"2"}>
+        <Text
+          my={"5"}
+          fontSize={["xs", "sm", "md", "lg"]}
+          px={"2"}
+          textAlign={"justify"}
+        >
           <Text fontWeight={"semibold"}>Hello , I am Naresh Rajput</Text>
-          <Box color={'#59b256'} fontWeight={'semibold'}>
+          <Box color={"#59b256"} fontWeight={"semibold"}>
             <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString("Full Stack Web Developer")
-                  .callFunction(() => {
-                    console.log("String typed out!");
-                  })
-                  .pauseFor(2500)
-                  .deleteAll()
-                  .typeString("MERN Developer")
-                  .callFunction(() => {
-                    console.log("All strings were deleted");
-                  })
-                  .start();
+              options={{
+                strings: ["Full Stack Web Developer", "MERN Developer"],
+                autoStart: true,
+                loop: true,
               }}
             />
           </Box>

@@ -104,7 +104,6 @@ const Intro = () => {
           bgGradient={"linear(to-r, #59b256, #59b256)"}
           w={["100%", "100%", "100%", "100%"]}
           h={["45vh", "65vh", "75vh", "95vh"]}
-         
         ></Box>
         <Image
           src={profile}
@@ -112,7 +111,6 @@ const Intro = () => {
           width={["100%", "100%", "100%", "100%"]}
           height={["45vh", "65vh", "75vh", "95vh"]}
           position="absolute"
-         
         />
       </Box>
     </Flex>

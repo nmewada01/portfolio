@@ -8,7 +8,7 @@ export const products = [
     area: "building a product page and buy functionality and footer, working on design of the website.",
     feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page.",
     des: "Sports-K is a e-commerce website which offers sports based products like clothes and shoes. It allows you to buy clothes and shoes online with payment gateway integration. ",
-    Tech: "React, Redux, JavaScript, ChakraUI",
+    Tech: "React, Redux, JavaScript, ChakraUI, NodeJS",
   },
   {
     id: 2,

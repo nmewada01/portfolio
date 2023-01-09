@@ -3,7 +3,7 @@ import { ThemeContext } from "../../context/context";
 import "./contact.css";
 import emailjs from "emailjs-com";
 import { FcHome, FcPhone } from "react-icons/fc";
-import { AiTwotoneMail } from "react-icons/ai";
+import { MdMarkEmailRead } from "react-icons/md";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import swal from "sweetalert";
 import {
@@ -65,6 +65,7 @@ const Contact = () => {
             <Heading
               fontSize={["2xl", "3xl", "4xl", "5xl"]}
               style={{ color: "#59b256" }}
+              my={["5"]}
             >
               Contacts
             </Heading>
@@ -74,23 +75,25 @@ const Contact = () => {
               </Text>
               <Box className="c-info-item">
                 <FcPhone size="35px" />
-                &nbsp;&nbsp;&nbsp;+91 9617732664
+                +91 9617732664
               </Box>
               <Text borderBottom={"2px solid green"} display={"inline-block"}>
                 Mail Me.
               </Text>
               <Box className="c-info-item">
-                <AiTwotoneMail size="35px" />
-                &nbsp;&nbsp;&nbsp; nareshmewada014@gmail.com
+                <MdMarkEmailRead size="35px" />
+                nareshmewada014@gmail.com
               </Box>
               <Text borderBottom={"2px solid green"} display={"inline-block"}>
                 Address.
               </Text>
               <Box className="c-info-item">
                 <FcHome size="35px" />
-                &nbsp;&nbsp;&nbsp; Sehore,MP,India
+                Sehore,MP,India
               </Box>
-              <Box style={{ display: "flex", gap: "15px" }}>
+              <Box
+                style={{ display: "flex", gap: "15px", alignItems: "center" }}
+              >
                 <Text>connect with me:</Text>
                 <Tooltip label="My Github">
                   <Box>
@@ -120,7 +123,7 @@ const Contact = () => {
           </Box>
           {isLargerThan ? null : <Divider my={"5"} />}
           <Box className="c-right" lineHeight={"2rem"}>
-            <Text className="c-desc">
+            <Text className="c-desc" textAlign={"justify"}>
               <Button
                 color={darkMode ? "white" : "green"}
                 bg={darkMode ? "#59b256" : "white"}
@@ -134,13 +137,14 @@ const Contact = () => {
               <br />
               contact me via email.
               <br />
-              Thank YOu
+              Thank You!
             </Text>
 
             {/* ---------------------------------------------------------------------------------------------------------------------------- */}
 
             <form ref={form} onSubmit={sendEmail} className={"form"}>
               <Input
+                my={"1"}
                 required
                 fontSize={["xs", "sm", "md", "md"]}
                 style={{ backgroundColor: darkMode && "#333" }}
@@ -150,6 +154,7 @@ const Contact = () => {
               />
 
               <Input
+                my={"1"}
                 required
                 fontSize={["xs", "sm", "md", "md"]}
                 style={{ backgroundColor: darkMode && "#333" }}
@@ -158,6 +163,7 @@ const Contact = () => {
                 placeholder="Your Email"
               />
               <Textarea
+                my={"1"}
                 required
                 fontSize={["xs", "sm", "md", "md"]}
                 style={{ backgroundColor: darkMode && "#333" }}
@@ -166,6 +172,7 @@ const Contact = () => {
               />
               <Tooltip label="click to send message">
                 <Input
+                  my={"3"}
                   fontSize={["xs", "sm", "md", "md"]}
                   type="submit"
                   value="Send"

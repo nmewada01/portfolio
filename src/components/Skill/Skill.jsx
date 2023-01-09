@@ -6,6 +6,7 @@ import {
   Image,
   SimpleGrid,
   Text,
+  Tooltip,
   useMediaQuery,
 } from "@chakra-ui/react";
 import React from "react";
@@ -42,36 +43,41 @@ const Skill = () => {
         </Text>
         <SimpleGrid mt={"8"} columns={[3, 4, 5]} mx={"4"} gap="1rem">
           {techStack.map((el, index) => (
-            <Box
-              my={"5"}
-              key={index}
-              transition={"all 0.9s ease"}
-              boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
-              mx={["1", "2", "3", "5"]}
-              _hover={{
-                transform: "scale(1.2)",
-                boxShadow:
-                  "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
-                bg: "skyblue",
-              }}
-            >
-              <Image
-                w="30%"
-                alt={el.name}
-                src={el.link}
-                className="w-12"
-                ml={"auto"}
-                mr={"auto"}
-                display={"block"}
-              />
-              <Text
-                fontSize={["xs", "sm", "md", "lg"]}
-                align="center"
-                fontWeight={"semibold"}
+            <Tooltip hasArrow label={el.name}>
+              <Box
+                my={"5"}
+                py={"3"}
+                key={index}
+                transition={"all 0.9s ease"}
+                boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+                mx={["1", "2", "3", "5"]}
+                _hover={{
+                  transform: "scale(1.2)",
+                  boxShadow:
+                    "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
+                  bg: "skyblue",
+                }}
               >
-                {el.name}
-              </Text>
-            </Box>
+                <Image
+                  w="30%"
+                  alt={el.name}
+                  src={el.link}
+                  className="w-12"
+                  ml={"auto"}
+                  mr={"auto"}
+                  display={"block"}
+                />
+                {!isSmallerThan && (
+                  <Text
+                    fontSize={["xs", "sm", "md", "lg"]}
+                    align="center"
+                    fontWeight={"semibold"}
+                  >
+                    {el.name}
+                  </Text>
+                )}
+              </Box>
+            </Tooltip>
           ))}
         </SimpleGrid>
         <Divider />
