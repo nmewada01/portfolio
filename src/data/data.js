@@ -6,7 +6,8 @@ export const products = [
     link2: "https://nareshrajput-sports-site.vercel.app/",
     ProjectName: "Sports-K",
     area: "building a product page and buy functionality and footer, working on design of the website.",
-    feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page.",
+    feature:
+      "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page.",
     des: "Sports-K is a e-commerce website which offers sports based products like clothes and shoes. It allows you to buy clothes and shoes online with payment gateway integration. ",
     Tech: "React, Redux, JavaScript, ChakraUI, NodeJS",
   },
@@ -18,7 +19,8 @@ export const products = [
     ProjectName: "BetterMart",
     area: "Built the website's Login, signup, Adminpage, footer, and navbar",
     des: "Bettermart is a unique, full-lifestyle shopping destination, with a mostly exclusive assortment of clothing, shoes, and more. A collaborative project, built-in 6 days by a team of 5 developers. ",
-    feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
+    feature:
+      "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
     Tech: "NodeJS, MongoDB, Mongoose, ExpressJS, Redux, ChakraUI",
   },
   {
@@ -29,7 +31,8 @@ export const products = [
     ProjectName: "DeskTime Clone",
     area: "building a product page and buy functionality and footer, working on design of the website.",
     des: "Desktime is a desktop and mobile time tracking app for companies and freelancers. DeskTime is a product designed to increase productivity in an open and empowering environment.",
-    feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
+    feature:
+      "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
     Tech: "React, JavaScript, ChakraUI",
   },
   {
@@ -52,12 +55,33 @@ export const products = [
     ProjectName: "BangGood clone",
     area: "building a product page and buy functionality and footer, working on design of the website.",
     des: "This Website allows people to buy and sell physical goods, and services. A collaborative project, built-in 5 days by a team of 5 developers",
-    feature: "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
+    feature:
+      "Home page, Login page, Signup page, Product page, Cart page, Wishlist page, payment page, order page, and address page",
     Tech: "Html, CSS, JavaScript",
   },
 ];
 
 export const techStack = [
+  {
+    name: "Angular",
+    link: "https://private-user-images.githubusercontent.com/101567054/457650642-edd9cbb9-426a-4643-b88a-1cddbb1af764.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA1OTkwOTQsIm5iZiI6MTc1MDU5ODc5NCwicGF0aCI6Ii8xMDE1NjcwNTQvNDU3NjUwNjQyLWVkZDljYmI5LTQyNmEtNDY0My1iODhhLTFjZGRiYjFhZjc2NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyMlQxMzI2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yMmEyZTdkYTVmOGUwYjJjYTczYTAxOTE0YjQ2OGI4ZTljZjIxYzQyNjgxNWFiMWIxNjdjMmY1Y2U4YmM1M2I4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.wTem2pTbAcLFLYYYxCBmgUqGmrHUcAl5oI4GGiDa77U",
+  },
+  {
+    name: "NestJS",
+    link: "https://private-user-images.githubusercontent.com/101567054/457650676-eb4f032b-0289-4b7e-bc18-618969f9dda3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA1OTkwOTQsIm5iZiI6MTc1MDU5ODc5NCwicGF0aCI6Ii8xMDE1NjcwNTQvNDU3NjUwNjc2LWViNGYwMzJiLTAyODktNGI3ZS1iYzE4LTYxODk2OWY5ZGRhMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyMlQxMzI2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNjA2NmVjZDJjMTg5YTFlMDg0NzAwNjYxNDc1ZTBkNzYxZDcxYTdmZDBmMzIwZTI2NzU2MmE3MTJiNmI1MzJmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.aFbw1XClSIWyNV0Na7YoR7kUZOgSCu5AmGql9oUBKkk",
+  },
+  {
+    name: "PostgreSQL",
+    link: "https://private-user-images.githubusercontent.com/101567054/457650716-3157c475-1120-47ec-b6b9-df5ea43cea6f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA1OTkwOTQsIm5iZiI6MTc1MDU5ODc5NCwicGF0aCI6Ii8xMDE1NjcwNTQvNDU3NjUwNzE2LTMxNTdjNDc1LTExMjAtNDdlYy1iNmI5LWRmNWVhNDNjZWE2Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyMlQxMzI2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mZDk0N2JkMjQ5MWQxZDZmYTExNDhjNTU5MzljMGMwNDYxNjEzMGI1MjY4NjM2ODJlMTE3NzMzNTFhYTgxODE5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.cBMdcMIlgOdylGqBdlmfDe5ia7GVtBU8Ia8KLz8QpKM",
+  },
+  {
+    name: "React",
+    link: "https://user-images.githubusercontent.com/101567054/205489113-5b75185c-931f-4545-94cc-93479919a87a.svg",
+  },
+  {
+    name: "Redux",
+    link: "https://user-images.githubusercontent.com/101567054/205489134-92b63f1e-3c5c-4a42-936e-909ff391fbaa.svg",
+  },
   {
     name: "HTML",
     link: "https://user-images.githubusercontent.com/101567054/205489730-71777440-98f7-4a2a-91c1-4ceb2a3977bd.svg",
@@ -69,14 +93,6 @@ export const techStack = [
   {
     name: "JavaScript",
     link: "https://user-images.githubusercontent.com/101567054/205489735-d9aee7ca-5968-4161-9f2b-20b18999c84f.svg",
-  },
-  {
-    name: "React",
-    link: "https://user-images.githubusercontent.com/101567054/205489113-5b75185c-931f-4545-94cc-93479919a87a.svg",
-  },
-  {
-    name: "Redux",
-    link: "https://user-images.githubusercontent.com/101567054/205489134-92b63f1e-3c5c-4a42-936e-909ff391fbaa.svg",
   },
   {
     name: "BootStrap",
@@ -125,9 +141,6 @@ export const techStack = [
     link: "https://user-images.githubusercontent.com/101567054/205489818-2f35837b-2168-4341-a579-b87b09718925.svg",
   },
 ];
-
-
-
 
 // {
 //   id: 4,

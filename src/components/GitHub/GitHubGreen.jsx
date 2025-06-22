@@ -12,9 +12,8 @@ const GitHubGreen = () => {
         mx={isLargerThan ? "2rem" : "1rem"}
         textAlign={"center"}
         textDecoration={"underline"}
-        my={"7"}
-      >
-        Sta<span style={{ color: "#59b256" }}>tistics</span>
+        my={"7"}>
+        Sta<span style={{ color: "rgb(220, 20, 60)" }}>tistics</span>
       </Text>
       <Box min-h="100vh" w="95%" m="1rem" my={"3rem"}>
         <Flex justify={"center"} my={"9"} w="90%" m="auto">
@@ -25,8 +24,7 @@ const GitHubGreen = () => {
           m="auto"
           min-h="50vh"
           transition={"all 0.9s ease"}
-          _hover={{ transform: "scale(1.1)" }}
-        >
+          _hover={{ transform: "scale(1.1)" }}>
           <Image
             width={["95%", "90%", "75%", "50%"]}
             src="https://github-readme-streak-stats.herokuapp.com/?user=nmewada01"

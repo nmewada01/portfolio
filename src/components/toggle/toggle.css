@@ -22,7 +22,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-color: #999;
+  background-color: rgb(220, 20, 60);
   position: absolute;
   cursor: pointer;
 }

@@ -28,7 +28,7 @@ const Skill = () => {
       <Box id="skill" min-h={"100vh"} m="auto" w={"95%"} my={"7rem"}>
         <Box mx={"4"} my={"4"}>
           <Heading textAlign={"center"}>
-            Ski<span style={{ color: "#59b256" }}>lls</span>
+            Ski<span style={{ color: "rgb(220, 20, 60)" }}>lls</span>
           </Heading>
         </Box>
         <Divider />
@@ -37,9 +37,8 @@ const Skill = () => {
           fontWeight={"semibold"}
           textAlign={"center"}
           textDecoration={"underline"}
-          my={"5"}
-        >
-          Tech <span style={{ color: "#59b256" }}>Skills</span>
+          my={"5"}>
+          Tech <span style={{ color: "rgb(220, 20, 60)" }}>Skills</span>
         </Text>
         <SimpleGrid mt={"8"} columns={[3, 4, 5]} mx={"4"} gap="1rem">
           {techStack.map((el, index) => (
@@ -56,8 +55,7 @@ const Skill = () => {
                   boxShadow:
                     "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
                   bg: "skyblue",
-                }}
-              >
+                }}>
                 <Image
                   w="30%"
                   alt={el.name}
@@ -71,8 +69,7 @@ const Skill = () => {
                   <Text
                     fontSize={["xs", "sm", "md", "lg"]}
                     align="center"
-                    fontWeight={"semibold"}
-                  >
+                    fontWeight={"semibold"}>
                     {el.name}
                   </Text>
                 )}
@@ -80,34 +77,6 @@ const Skill = () => {
             </Tooltip>
           ))}
         </SimpleGrid>
-        <Divider />
-        <Text
-          my={"7"}
-          fontSize={"2xl"}
-          fontWeight={"semibold"}
-          textAlign={"center"}
-          textDecoration={"underline"}
-        >
-          Soft <span style={{ color: "#59b256" }}>Skills</span>
-        </Text>
-        <Flex
-          w="90%"
-          m="auto"
-          my={"7"}
-          p={"1rem"}
-          mx={"2"}
-          fontSize={["lg", "lg", "sm", "md"]}
-          fontWeight={"extrabold"}
-          justifyContent={"space-around"}
-          flexDirection={isSmallerThan ? "row" : "column"}
-          justifyItems={"center"}
-        >
-          <Box>🎯 Punctuality</Box>
-          <Box>🎯 Time-Management</Box>
-          <Box>🎯 Adaptability</Box>
-          <Box>🎯 Teamwork</Box>
-          <Box>🎯 Collaborative</Box>
-        </Flex>
         <Divider />
         <GitHubGreen />
       </Box>

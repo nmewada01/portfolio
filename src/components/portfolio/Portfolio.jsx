@@ -41,14 +41,12 @@ const PortFolio = ({
         mx={"10px"}
         p={"2"}
         border="1px solid skyblue"
-        _hover={{ border: "2px solid #59b256" }}
-      >
+        _hover={{ border: "2px solid rgb(220, 20, 60)" }}>
         <Flex
           justify={"center"}
           gap={"1rem"}
           alignItems={"center"}
-          alignContent={"center"}
-        >
+          alignContent={"center"}>
           <Tooltip label="Deploy">
             <Text>
               <a href={link2} target="_blank" rel="noreferrer">
@@ -72,17 +70,15 @@ const PortFolio = ({
           <Box
             color={darkMode ? "whitesmoke" : "black"}
             position={"sticky"}
-            zIndex={"2"}
-          >
+            zIndex={"2"}>
             <Box>
               <Heading
-                color={"#59b256"}
+                color={"rgb(220, 20, 60)"}
                 fontSize={"2xl"}
                 fontWeight={"semibold"}
                 textDecoration={"underline"}
                 textAlign={"center"}
-                my={"1"}
-              >
+                my={"1"}>
                 {ProjectName}
               </Heading>
             </Box>
@@ -109,7 +105,7 @@ const PortFolio = ({
             </Box> */}
             <Box>
               <Text fontSize={["xs", "sm", "md", "md"]}>
-                <Code fontWeight={"bold"} color={"green"}>
+                <Code fontWeight={"bold"} color={"rgb(220, 20, 60)"}>
                   Tech Stack:
                 </Code>{" "}
                 {techstack}

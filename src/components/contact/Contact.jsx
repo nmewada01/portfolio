@@ -57,34 +57,38 @@ const Contact = () => {
         className="c"
         id="contact"
         my={"2rem"}
-        fontSize={["xs", "sm", "md", "md"]}
-      >
+        fontSize={["xs", "sm", "md", "md"]}>
         <Box className="c-bg"></Box>
         <Box className="c-wrapper">
           <Box className="c-left">
             <Heading
               fontSize={["2xl", "3xl", "4xl", "5xl"]}
-              style={{ color: "#59b256" }}
-              my={["5"]}
-            >
+              style={{ color: "rgb(220, 20, 60)" }}
+              my={["5"]}>
               Contacts
             </Heading>
             <Box className="c-info">
-              <Text borderBottom={"2px solid green"} display={"inline-block"}>
+              <Text
+                borderBottom={"2px solid rgb(220, 20, 60)"}
+                display={"inline-block"}>
                 Mobile No.
               </Text>
               <Box className="c-info-item">
                 <FcPhone size="35px" />
                 +91 9617732664
               </Box>
-              <Text borderBottom={"2px solid green"} display={"inline-block"}>
+              <Text
+                borderBottom={"2px solid rgb(220, 20, 60)"}
+                display={"inline-block"}>
                 Mail Me.
               </Text>
               <Box className="c-info-item">
                 <MdMarkEmailRead size="35px" />
                 nareshmewada014@gmail.com
               </Box>
-              <Text borderBottom={"2px solid green"} display={"inline-block"}>
+              <Text
+                borderBottom={"2px solid rgb(220, 20, 60)"}
+                display={"inline-block"}>
                 Address.
               </Text>
               <Box className="c-info-item">
@@ -92,15 +96,14 @@ const Contact = () => {
                 Sehore,MP,India
               </Box>
               <Box
-                style={{ display: "flex", gap: "15px", alignItems: "center" }}
-              >
+                style={{ display: "flex", gap: "15px", alignItems: "center" }}>
                 <Text>connect with me:</Text>
                 <Tooltip label="My Github">
                   <Box>
                     <a href="https://github.com/nmewada01" target="blank">
                       <BsGithub
                         size="2rem"
-                        color={darkMode ? "white" : "green"}
+                        color={darkMode ? "white" : "rgb(220, 20, 60)"}
                       />
                     </a>
                   </Box>
@@ -109,11 +112,10 @@ const Contact = () => {
                   <Box>
                     <a
                       href="https://www.linkedin.com/in/naresh-rajput-659ab5220/"
-                      target="blank"
-                    >
+                      target="blank">
                       <BsLinkedin
                         size="2rem"
-                        color={darkMode ? "white" : "green"}
+                        color={darkMode ? "white" : "rgb(220, 20, 60)"}
                       />
                     </a>
                   </Box>
@@ -125,10 +127,9 @@ const Contact = () => {
           <Box className="c-right" lineHeight={"2rem"}>
             <Text className="c-desc" textAlign={"justify"}>
               <Button
-                color={darkMode ? "white" : "green"}
-                bg={darkMode ? "#59b256" : "white"}
-                my={"3"}
-              >
+                color={darkMode ? "white" : "rgb(220, 20, 60)"}
+                bg={darkMode ? "rgb(220, 20, 60)" : "white"}
+                my={"3"}>
                 say Hello
               </Button>
               <br />
@@ -176,14 +177,13 @@ const Contact = () => {
                   fontSize={["xs", "sm", "md", "md"]}
                   type="submit"
                   value="Send"
-                  bg="#59b256"
+                  bg="rgb(220, 20, 60)"
                   w="50%"
                   color={"whitesmoke"}
                   _hover={{
-                    color: "green",
+                    color: "rgb(220, 20, 60)",
                     bg: "none",
-                  }}
-                ></Input>
+                  }}></Input>
               </Tooltip>
               {done && (
                 <Image src={ThankYou} w="100%" h="25vh" alt="thankyou" />

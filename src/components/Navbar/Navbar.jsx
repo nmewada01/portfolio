@@ -21,7 +21,7 @@ import {
   DrawerContent,
   DrawerCloseButton,
 } from "@chakra-ui/react";
-import pro from "../../img/png.png";
+import pro from "../../img/profile.webp";
 import { ThemeContext } from "../../context/context";
 const Navbar = () => {
   const [isLargerThan] = useMediaQuery("(min-width: 769px)");
@@ -31,30 +31,28 @@ const Navbar = () => {
     <Box>
       {isLargerThan ? (
         <Flex
+          w={"100%"}
           mx={"5"}
-          bg={darkMode ? "#2a3132" : "#f1f1f2"}
           position={"fixed"}
           zIndex={"99"}
           px={"5"}
-        >
+          bg={darkMode ? "rgb(15, 22, 36)" : "rgb(237, 242, 248)"}>
           <Flex
             fontSize={"lg"}
             gap={"14px"}
             my={"2"}
-            color={darkMode ? "#f1f2f3" : "#59b256"}
-            fontWeight={"semibold"}
-          >
+            color={darkMode ? "#fff" : "#222"}
+            fontWeight={"semibold"}>
             <Link
               to="intro"
               smooth={true}
               duration={1000}
-              activeClass={styles.active}
+              activeClass={styles.activeAvatar}
               spy={true}
-              hashSpy={true}
-            >
+              hashSpy={true}>
               <Box>
-                <Tooltip label="Naresh Rajput" fontSize="md">
-                  <Avatar size="sm" src={pro} />
+                <Tooltip label="Naresh Mewada" fontSize="md">
+                  <Avatar className={styles.avatarBorder} size="sm" src={pro} />
                 </Tooltip>
               </Box>
             </Link>
@@ -64,23 +62,20 @@ const Navbar = () => {
               duration={1000}
               activeClass={styles.active}
               spy={true}
-              hashSpy={true}
-            >
+              hashSpy={true}>
               <Box>
                 <Tooltip label="About Me" fontSize="md">
                   About
                 </Tooltip>
               </Box>
             </Link>
-
             <Link
               to="skill"
               smooth={true}
               duration={1000}
               activeClass={styles.active}
               spy={true}
-              hashSpy={true}
-            >
+              hashSpy={true}>
               <Box>
                 <Tooltip label="My Skills" fontSize="md">
                   Skill
@@ -93,8 +88,7 @@ const Navbar = () => {
               duration={1000}
               activeClass={styles.active}
               spy={true}
-              hashSpy={true}
-            >
+              hashSpy={true}>
               <Box>
                 <Tooltip label="My Projects" fontSize="md">
                   Project
@@ -107,28 +101,13 @@ const Navbar = () => {
               duration={1000}
               activeClass={styles.active}
               spy={true}
-              hashSpy={true}
-            >
+              hashSpy={true}>
               <Box>
                 <Tooltip label="My Contact" fontSize="md">
                   Contact
                 </Tooltip>
               </Box>
             </Link>
-            <Box>
-              <Box m="0" p="0">
-                <a
-                  href={require("../../resume/Naresh_Rajput_Resume.pdf")}
-                  target="_blank"
-                  rel="noreferrer"
-                  download
-                >
-                  <Tooltip label="Click To Download Resume" fontSize="md">
-                    Resume
-                  </Tooltip>
-                </a>
-              </Box>
-            </Box>
           </Flex>
         </Flex>
       ) : (
@@ -156,20 +135,18 @@ export function DrawerExample({ darkMode }) {
         fontSize={"lg"}
         bg={darkMode && "#2a3132"}
         position={"fixed"}
-        zIndex={"99"}
-      >
+        zIndex={"99"}>
         <Icon as={HamburgerIcon} />
       </Button>
       <Drawer
         isOpen={isOpen}
         placement="right"
         onClose={onClose}
-        finalFocusRef={btnRef}
-      >
+        finalFocusRef={btnRef}>
         <DrawerOverlay />
         <DrawerContent>
           <DrawerCloseButton />
-          <DrawerHeader color={"#59b256"}>Naresh Rajput</DrawerHeader>
+          <DrawerHeader color={"#59b256"}>Naresh Mewada</DrawerHeader>
 
           <DrawerBody lineHeight={"10vh"} textAlign={"center"}>
             <Box>
@@ -180,8 +157,7 @@ export function DrawerExample({ darkMode }) {
                 activeClass={styles.active}
                 spy={true}
                 hashSpy={true}
-                onClick={() => onClose()}
-              >
+                onClick={() => onClose()}>
                 <Box _hover={{ bgColor: "darkgrey" }}>Introduction</Box>
               </Link>
               <Link
@@ -191,8 +167,7 @@ export function DrawerExample({ darkMode }) {
                 activeClass={styles.active}
                 spy={true}
                 hashSpy={true}
-                onClick={() => onClose()}
-              >
+                onClick={() => onClose()}>
                 <Box _hover={{ bgColor: "darkgrey" }}>About Me</Box>
               </Link>
 
@@ -203,8 +178,7 @@ export function DrawerExample({ darkMode }) {
                 activeClass={styles.active}
                 spy={true}
                 hashSpy={true}
-                onClick={() => onClose()}
-              >
+                onClick={() => onClose()}>
                 <Box _hover={{ bgColor: "darkgrey" }}>Skills</Box>
               </Link>
               <Link
@@ -214,8 +188,7 @@ export function DrawerExample({ darkMode }) {
                 activeClass={styles.active}
                 spy={true}
                 hashSpy={true}
-                onClick={() => onClose()}
-              >
+                onClick={() => onClose()}>
                 <Box _hover={{ bgColor: "darkgrey" }}>Project</Box>
               </Link>
               <Link
@@ -225,8 +198,7 @@ export function DrawerExample({ darkMode }) {
                 activeClass={styles.active}
                 spy={true}
                 hashSpy={true}
-                onClick={() => onClose()}
-              >
+                onClick={() => onClose()}>
                 <Box _hover={{ bgColor: "darkgrey" }}>Contact</Box>
               </Link>
 
@@ -236,8 +208,7 @@ export function DrawerExample({ darkMode }) {
                     href={require("../../resume/Naresh_Rajput_Resume.pdf")}
                     target="_blank"
                     rel="noreferrer"
-                    download
-                  >
+                    download>
                     Resume
                   </a>
                 </Box>

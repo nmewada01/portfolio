@@ -23,7 +23,7 @@
   position: absolute;
   top: 50px;
   left: 50px;
-  background-color: #59b256;
+  background-color: rgb(220, 20, 60);
 }
 
 .a-card {
@@ -110,7 +110,7 @@
     position: absolute;
     top: 135px;
     left: 50px;
-    background-color: #59b256;
+    background-color: rgb(220, 20, 60);
   }
 
   .a-card {

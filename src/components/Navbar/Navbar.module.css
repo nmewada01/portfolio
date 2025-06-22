@@ -10,7 +10,7 @@
   z-index: 99;
   font-size: 20px;
   font-weight: 500;
-  color: #59b256;
+  color: rgb(220, 20, 60);
 }
 a {
   height: 50px;
@@ -153,3 +153,41 @@ a {
     border-bottom: none;
   }
 } */
+
+.navLink {
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+  padding: 4px 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.navBox:hover,
+.navLink:hover {
+  background: rgb(220, 20, 60);
+  color: #fff !important;
+}
+
+.active .navBox {
+  border-bottom: 3px solid rgb(220, 20, 60);
+  color: rgb(220, 20, 60) !important;
+  background: none;
+}
+.active {
+  border-bottom: 3px solid rgb(220, 20, 60);
+  color: rgb(220, 20, 60) !important;
+}
+
+.avatarBorder {
+  border: 2.5px solid transparent;
+  border-radius: 50%;
+  padding: 2px;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+/* This selector targets the Avatar when its parent Link is active */
+.activeAvatar .avatarBorder {
+  border-color: rgb(220, 20, 60);
+}
