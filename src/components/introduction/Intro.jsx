@@ -95,8 +95,8 @@ const Intro = () => {
         <Box>
           <a
             className="resume_link"
-            href={require("../../resume/Naresh_Rajput_Resume.pdf")}
-            download="Naresh_Rajput's Resume">
+            href={require("../../resume/Naresh_Mewada.pdf")}
+            download="Naresh_Mewada's Resume">
             <Button
               colorScheme="red"
               variant="solid"
