@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.780dcc1a.css",
-    "main.js": "/portfolio/static/js/main.a024588c.js",
+    "main.js": "/portfolio/static/js/main.30a555f0.js",
     "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/Naresh_Mewada.pdf": "/portfolio/static/media/Naresh_Mewada.611db6338a18edb8ffaa.pdf",
     "static/media/profile.webp": "/portfolio/static/media/profile.b7d02684c70c6dad42a4.webp",
     "static/media/thank-you.png": "/portfolio/static/media/thank-you.5400ccfb25ecdab14b86.png",
     "static/media/react.svg": "/portfolio/static/media/react.1520bd67b9711ed91ace46b169bc2491.svg",
@@ -11,11 +10,11 @@
     "static/media/sun.svg": "/portfolio/static/media/sun.f8653db37885713856e4d7c2a9a5e8e2.svg",
     "static/media/moon.svg": "/portfolio/static/media/moon.3110b6b43dc0da840d299ca2c33e13bc.svg",
     "main.780dcc1a.css.map": "/portfolio/static/css/main.780dcc1a.css.map",
-    "main.a024588c.js.map": "/portfolio/static/js/main.a024588c.js.map",
+    "main.30a555f0.js.map": "/portfolio/static/js/main.30a555f0.js.map",
     "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.780dcc1a.css",
-    "static/js/main.a024588c.js"
+    "static/js/main.30a555f0.js"
   ]
 }
