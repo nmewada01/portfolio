@@ -205,7 +205,7 @@ export function DrawerExample({ darkMode }) {
               <Box my="1">
                 <Box m="0" p="0" _hover={{ bgColor: "darkgrey" }}>
                   <a
-                    href={require("../../resume/Naresh_Mewada.pdf")}
+                    href="/Naresh_Mewada.pdf"
                     target="_blank"
                     rel="noreferrer"
                     download>
